@@ -1,0 +1,10 @@
+<table border="1" cellspacing="1" cellpadding="5">
+   <tr>
+      <td>Query contents</td>
+   </tr>
+   <f:for each="{queries}" as="query">
+      <tr>
+         <td align="top"><f:format.crop maxCharacters="100">{query.query}</f:format.crop></td>
+      </tr>
+   </f:for>
+</table>
