@@ -6,13 +6,13 @@
         <sDEF>
             <ROOT>
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:wfqbe/locallang_db.xml:sheet_general</sheetTitle>
+                    <sheetTitle>LLL:EXT:rsrq/locallang_db.xml:sheet_general</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el>
                 <div_id>
                         <TCEforms>
-                <label>LLL:EXT:wfqbe/locallang_db.xml:div_id</label>
+                <label>LLL:EXT:rsrq/locallang_db.xml:div_id</label>
                             <config>
                              <type>input</type>
                              <size>45</size>
@@ -23,11 +23,11 @@
                 </div_id>
                     <queryObject>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:query</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:query</label>
                             <config>
                                 <type>group</type>
                                 <internal_type>db</internal_type>
-                                <allowed>tx_wfqbe_query</allowed>
+                                <allowed>tx_rsrq_query</allowed>
                                 <size>2</size>
                                 <maxitems>1</maxitems>
                                 <minitems>0</minitems>
@@ -37,7 +37,7 @@
                     </queryObject>
                     <parameterCheck>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:parameterCheck</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:parameterCheck</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -48,11 +48,11 @@
                     </parameterCheck>
                     <templateFile>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:templateFile</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:templateFile</label>
                             <config>
                                 <type>input</type>
                                 <eval>trim</eval>
-                                <default>EXT:wfqbe/pi1/wfqbe_template.html</default>
+                                <default>EXT:rsrq/pi1/rsrq_template.html</default>
                                 <wizards type="array">
                                     <_PADDING>2</_PADDING>
                                     <link type="array">
@@ -78,24 +78,24 @@
             
                     <customTemplate>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:customTemplate</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:customTemplate</label>
                             <config>
                                 <type>select</type>
                                 <items type="array">
                                 <numIndex index="1" type="array">
-                                    <numIndex index="0">LLL:EXT:wfqbe/locallang_db.xml:customTemplate.I.0</numIndex>
+                                    <numIndex index="0">LLL:EXT:rsrq/locallang_db.xml:customTemplate.I.0</numIndex>
                                     <numIndex index="1"></numIndex>
                                 </numIndex>
                                 <numIndex index="2" type="array">
-                                    <numIndex index="0">LLL:EXT:wfqbe/locallang_db.xml:customTemplate.I.1</numIndex>
+                                    <numIndex index="0">LLL:EXT:rsrq/locallang_db.xml:customTemplate.I.1</numIndex>
                                     <numIndex index="1">0</numIndex>
                                 </numIndex>
                                 <numIndex index="3" type="array">
-                                    <numIndex index="0">LLL:EXT:wfqbe/locallang_db.xml:customTemplate.I.2</numIndex>
+                                    <numIndex index="0">LLL:EXT:rsrq/locallang_db.xml:customTemplate.I.2</numIndex>
                                     <numIndex index="1">1</numIndex>
                                 </numIndex>
                                 <numIndex index="4" type="array">
-                                    <numIndex index="0">LLL:EXT:wfqbe/locallang_db.xml:customTemplate.I.3</numIndex>
+                                    <numIndex index="0">LLL:EXT:rsrq/locallang_db.xml:customTemplate.I.3</numIndex>
                                     <numIndex index="1">2</numIndex>
                                 </numIndex>
                             </items>
@@ -107,7 +107,7 @@
                 </customTemplate>
                 <debugQuery>
                     <TCEforms>
-                        <label>LLL:EXT:wfqbe/locallang_db.xml:debugQuery</label>
+                        <label>LLL:EXT:rsrq/locallang_db.xml:debugQuery</label>
                         <config>
                             <type>check</type>
                         </config>
@@ -121,13 +121,13 @@
     <results>
         <ROOT>
             <TCEforms>
-                <sheetTitle>LLL:EXT:wfqbe/locallang_db.xml:sheet_results</sheetTitle>
+                <sheetTitle>LLL:EXT:rsrq/locallang_db.xml:sheet_results</sheetTitle>
             </TCEforms>
             <type>array</type>
                 <el>
                     <recordsForPage>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:max_items_in_list</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:max_items_in_list</label>
                             <config>
                                 <type>input</type>
                                 <size>5</size>
@@ -142,7 +142,7 @@
                     </recordsForPage>
                     <emptyResult>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:emptyResult</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:emptyResult</label>
                             <config>
                                 <type>text</type>
                                 <size>5</size>
@@ -152,7 +152,7 @@
                     </emptyResult>
                     <summary>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:summary</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:summary</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -163,7 +163,7 @@
                     </summary>
                     <caption>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:caption</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:caption</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -174,7 +174,7 @@
                     </caption>
                     <csvDownload>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:csvDownload</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:csvDownload</label>
                             <config>
                                 <type>check</type>
                             </config>
@@ -188,13 +188,13 @@
         <search>
             <ROOT>
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:wfqbe/locallang_db.xml:sheet_search</sheetTitle>
+                    <sheetTitle>LLL:EXT:rsrq/locallang_db.xml:sheet_search</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                     <el>
                         <resultsPage>
                             <TCEforms>
-                                <label>LLL:EXT:wfqbe/locallang_db.xml:resultsPage</label>
+                                <label>LLL:EXT:rsrq/locallang_db.xml:resultsPage</label>
                                 <config>
                                     <type>group</type>
                                     <internal_type>db</internal_type>
@@ -208,7 +208,7 @@
                         </resultsPage>
                         <div_search_result_id>
                             <TCEforms>
-                                <label>LLL:EXT:wfqbe/locallang_db.xml:div_search_result_id</label>
+                                <label>LLL:EXT:rsrq/locallang_db.xml:div_search_result_id</label>
                                 <config>
                                     <type>input</type>
                                     <size>45</size>
@@ -225,13 +225,13 @@
             <insert>
                 <ROOT>
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:wfqbe/locallang_db.xml:sheet_insert</sheetTitle>
+                    <sheetTitle>LLL:EXT:rsrq/locallang_db.xml:sheet_insert</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el>
                     <pageConfirmation>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:pageConfirmation</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:pageConfirmation</label>
                             <config>
                                 <type>check</type>
                             </config>
@@ -239,7 +239,7 @@
                     </pageConfirmation>
                     <detailedPage>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:detailedPage</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:detailedPage</label>
                             <config>
                                 <type>group</type>
                                 <internal_type>db</internal_type>
@@ -253,7 +253,7 @@
                     </detailedPage>
                     <redirectQuery>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:redirectQuery</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:redirectQuery</label>
                             <config>
                                 <type>input</type>
                                 <size>80</size>
@@ -264,7 +264,7 @@
                     </redirectQuery>
                     <deletedPage>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:deletedPage</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:deletedPage</label>
                             <config>
                                 <type>group</type>
                                 <internal_type>db</internal_type>
@@ -278,7 +278,7 @@
                     </deletedPage>
                     <clear_cache>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:clear_cache</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:clear_cache</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -289,7 +289,7 @@
                     </clear_cache>
                     <send_email>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:send_email</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:send_email</label>
                             <config>
                                 <type>check</type>
                             </config>
@@ -297,7 +297,7 @@
                     </send_email>
                     <notify_email>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:notify_email</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:notify_email</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -308,7 +308,7 @@
                     </notify_email>
                     <notify_subject>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:notify_subject</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:notify_subject</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -319,7 +319,7 @@
                     </notify_subject>
                     <send_email_user>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:send_email_user</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:send_email_user</label>
                             <config>
                                 <type>check</type>
                             </config>
@@ -327,7 +327,7 @@
                     </send_email_user>
                     <field_email_user>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:field_email_user</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:field_email_user</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -338,7 +338,7 @@
                     </field_email_user>
                     <notify_subject_user>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:notify_subject_user</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:notify_subject_user</label>
                             <config>
                                 <type>input</type>
                                 <size>45</size>
@@ -349,7 +349,7 @@
                     </notify_subject_user>
                     <mailTemplate>
                         <TCEforms>
-                            <label>LLL:EXT:wfqbe/locallang_db.xml:mailTemplate</label>
+                            <label>LLL:EXT:rsrq/locallang_db.xml:mailTemplate</label>
                             <config>
                                 <type>input</type>
                                 <eval>trim</eval>
