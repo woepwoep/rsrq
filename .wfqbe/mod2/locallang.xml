@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;web_txwfqbeM2&quot;</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="title">DB management</label>
+            <label index="not_allowed">Sorry, you are not allowed to perform this action.</label>
+            <label index="not_available">Sorry, there are no records configured for this page.</label>
+            <label index="please_select">Please select one of the following actions:</label>
+            <label index="please_select_more">Select one of the following available actions to start manage records.</label>
+            <label index="back_to_list">Back to list</label>
+            <label index="new_record">Create new record</label>
+            <label index="export">Export records</label>
+            <label index="not_allowed_idrestricting">Not allowed due to restriction in action.</label>
+        </languageKey>
+    </data>
+</T3locallang>

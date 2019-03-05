@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;user_txwfqbeM1&quot;</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="title">DB structure</label>
+            <label index="mod_descr">This module allows you to manage the DB structure</label>
+            <label index="typo3_credentials">Local TYPO3 DB</label>
+            <label index="label_credentials">Select a db</label>
+            <label index="no_credentials">You must select a valid DB to connect</label>
+            <label index="label_table">Select a table</label>
+            <label index="no_connection">Connection failed! Please check your DB credentials</label>
+            <label index="label_name">Column name</label>
+            <label index="label_type">Column type</label>
+            <label index="field_deleted">Field correctly deleted</label>
+            <label index="field_not_deleted">Field NOT deleted</label>
+            <label index="label_new_field">Add a new field</label>
+            <label index="label_add_field">Add field now!</label>
+            <label index="newfield_name">Field name</label>
+            <label index="newfield_type">Field type</label>
+            <label index="newfield_maxlength">Max length</label>
+            <label index="title_add_field">Add a new field wizard</label>
+            <label index="newfield_error">Error while creating new field...</label>
+            <label index="newfield_error_name">You must insert a valid field name</label>
+            <label index="newfield_error_type">You must select a valid field type</label>
+            <label index="back">Go back</label>
+            <label index="confirm_delete">Do you really want to delete this field?</label>
+            <label index="help_C">This field is used to contains small texts up to 255 characters. Please specify the max number of allowed characters.</label>
+            <label index="help_X">This field is used to contains big texts up to 4000 characters. Please specify the max number of allowed characters.</label>
+            <label index="help_C2"></label>
+            <label index="help_X2"></label>
+            <label index="help_B">This field can contain anything...</label>
+            <label index="help_D">This field is used to contain date values</label>
+            <label index="help_T">This field is used to contain time values in timestamp format</label>
+            <label index="help_L">This field is used to contain boolean (1=true, 0=false) values</label>
+            <label index="help_I">This field is used to contain integer values. Please specify the max number of allowed characters.</label>
+            <label index="help_F">This field is used to contain floating point values (e.g. 125.55). Please specify the max number of allowed characters.</label>
+            <label index="help_header">Field type description:</label>
+        </languageKey>
+    </data>
+</T3locallang>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for wfqbe module tx_wfqbe_query_querywiz0</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">Wizard for search form</label>
+			<label index="function3">Search Form</label>
+			<label index="field_type">Field Type:</label>
+			<label index="label">label</label>
+			<label index="source">source</label>
+			<label index="value">value</label>
+			<label index="table">Table</label>
+			<label index="number_values">number of values</label>
+			<label index="update_change">update_on_change</label>
+			<label index="additional_attributes">additional tag attributes</label>
+			<label index="custom_id">Custom id</label>
+			<label index="input">input field</label>
+			<label index="radio">radio button</label>
+			<label index="select">select field</label>
+			<label index="check">check field</label>
+			<label index="calendar">calendar</label>
+			<label index="static">static</label>
+			<label index="db">dynamic (DB)</label>
+			<label index="multiple">multiple</label>
+			<label index="hidden">hidden</label>
+			<label index="required">required</label>
+			<label index="size">size</label>
+			<label index="maxlength">max length</label>
+			<label index="time">Time mode?</label>
+			<label index="nlp">Show help text?</label>
+			<label index="format">Date format</label>
+			<label index="field_view">field - view</label>
+			<label index="field_orderby">field - order by</label>
+			<label index="field_orderby_desc">DESC</label>
+			<label index="field_orderby_asc">ASC</label>
+			<label index="field_insert">field - insert</label>
+			<label index="field_where">field - where</label>
+			<label index="unique_id">Unique identifier</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="title">Wizard per la form di ricerca</label>
+			<label index="function3">Form di ricerca</label>
+			<label index="label">label</label>
+			<label index="source">sorgente</label>
+			<label index="value">valore</label>
+			<label index="table">Tabella</label>
+			<label index="number_values">numero di valori</label>
+			<label index="update_change">update_on_change</label>
+			<label index="additional_attributes">attributi aggiuntivi del tag</label>
+			<label index="input">input field</label>
+			<label index="radio">radio button</label>
+			<label index="select">select field</label>
+			<label index="check">check field</label>
+			<label index="calendar">calendario</label>
+			<label index="static">statica</label>
+			<label index="db">dinamica (DB)</label>
+			<label index="multiple">selezione multipla</label>
+			<label index="hidden">nascosto</label>
+			<label index="required">richiesto</label>
+			<label index="size">dimensione</label>
+			<label index="maxlength">n. massimo caratteri</label>
+			<label index="time">Modalità time?</label>
+			<label index="nlp">Visualizza messaggio?</label>
+			<label index="format">Formato data</label>
+			<label index="field_orderby">field - ordinamento</label>
+			<label index="field_view">field - visualizza</label>
+			<label index="field_insert">field - inserisci</label>
+			<label index="field_where">field - where</label>
+			<label index="unique_id">Identificatore univoco</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="title">Wizard für Suchformular</label>
+			<label index="function3">Suchformular</label>
+			<label index="label">Beschriftung</label>
+			<label index="source">Quelle</label>
+			<label index="value">Wert</label>
+			<label index="table">Table</label>
+			<label index="number_values">Anzahl Werte</label>
+			<label index="update_change">Update bei Veränderung</label>
+			<label index="input">Eingabefeld (input)</label>
+			<label index="radio">Auswahlfeld (radio)</label>
+			<label index="select">Auswahlfeld (select)</label>
+			<label index="check">Auswahlfeld (check)</label>
+			<label index="static">Statisch</label>
+			<label index="db">Dynamisch (DB)</label>
+			<label index="multiple">Mehrfachauswahl</label>
+			<label index="size">Anzahl</label>
+			<label index="table">Tabelle</label>
+			<label index="field_view">Feld - Anzeigen</label>
+			<label index="field_insert">Feld - Einfügen</label>
+			<label index="field_where">Feld - WHERE</label>
+		</languageKey>
+	</data>
+</T3locallang>

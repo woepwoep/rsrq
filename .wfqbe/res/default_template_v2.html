@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<link rel="stylesheet" href="stile.css" title=
+    "Stile Normale" type="text/css"/>-->
+<title>WFQBE Default Template</title>
+</head>
+
+<body>
+<!-- ###SEARCH_TEMPLATE### -->
+<div id="###CONF_DIVID###">
+	<form id="###CONF_DIVID###_form" method="post" enctype="multipart/form-data" ###XAJAX_SUBMIT### action="###CONF_SEARCH###">
+		<!-- ###SEARCH_BLOCK### -->
+		<div id="###SEARCH_ID###" class="###WFQBE_CLASS###">
+			<!-- ###FIELD_BLOCK### -->
+			<label style="font-weight: bold;" for="###SEARCH_ID_FIELD###">###SEARCH_LABEL###</label>
+			###SEARCH_FIELD###
+			<!-- ###FIELD_BLOCK### -->
+		</div>
+		<!-- ###SEARCH_BLOCK### -->
+		<div class="wfqbe_block">
+			<input type="submit" name="tx_wfqbe_pi1[submit]" value="###LABEL_SEARCH###" />
+		</div>
+	</form>
+</div>
+<!-- ###SEARCH_TEMPLATE### -->
+
+
+
+
+<!-- ###RESULT_TEMPLATE### -->
+<div id="###CONF_DIVID###">
+<table class="wfqbe_table_orderby">
+	<thead>
+	<tr class="wfqbe_table_header">
+		<!-- ###TH_TAG### -->
+		<th scope="col">###COLUMN_NAME###</th>
+		<!-- ###TH_TAG### -->
+	</tr>
+	</thead>
+</table>
+<br />
+<!-- ###TABLE_DATA### -->
+<ul>
+	<!-- ###TD_TAG### -->
+	<li>###COLUMN_NAME_I###: ###COLUMN_DATA###</li>
+	<!-- ###TD_TAG### -->
+</ul>
+<!-- ###TABLE_DATA### -->
+<!-- ###CSV_DOWNLOAD### -->
+<br />
+<a href="###CONF_CSV###">###LABEL_CSV###</a>
+<!-- ###CSV_DOWNLOAD### -->
+<br /><br />
+<!-- ###BROWSE_TEMPLATE### -->
+	<div class="wfqbe_browser">
+		###LABEL_PAGE_RECORDS###<br />
+		###LABEL_PAGE### ###PAGE_ACTUAL### ###LABEL_OF### ###PAGE_TOTAL###<br />
+		<a href="###PAGE_PREV###" ###PAGE_PREV_TITLE###>###LABEL_PREV_LINK###</a> ###PAGE_LIST### <a href="###PAGE_NEXT###" ###PAGE_NEXT_TITLE###>###LABEL_NEXT_LINK###</a>
+	</div>
+	<!-- ###BROWSE_TEMPLATE### -->
+</div>
+<!-- ###RESULT_TEMPLATE### -->
+
+
+
+
+
+<!-- ###EMPTY_RESULT_TEMPLATE### -->
+<div id="###CONF_DIVID###">
+	###CONF_EMPTYTEXT###
+	
+	<!-- ###WIZARD_TEMPLATE### -->
+		<form id="###CONF_DIVID###_form" method="post" enctype="multipart/form-data" ###XAJAX_SUBMIT### action="###CONF_INSERT###">
+			###INSERT_HIDDEN_FIELDS###
+			<div class="wfqbe_block">
+				<input type="submit" ###XAJAX_CLEAR### name="tx_wfqbe_pi1[wfqbe_select_wizard]" value="###LABEL_CANCEL###" />
+			</div>
+		</form>
+	<!-- ###WIZARD_TEMPLATE### -->
+</div>
+<!-- ###EMPTY_RESULT_TEMPLATE### -->
+
+
+
+
+<!-- ###INSERT_TEMPLATE### -->
+<div id="###CONF_DIVID###">
+	<script type="text/javascript">
+		function submitActions()	{
+			// RTE management
+			###ADDITIONALJS_SUBMIT###
+		}
+	</script>
+	<form id="###CONF_DIVID###_form" method="post" enctype="multipart/form-data" ###XAJAX_SUBMIT### action="###CONF_INSERT###" onsubmit="submitActions();">
+	<div class="wfqbe_description">###INSERT_DESCRIPTION###</div>
+	<input type="hidden" id="wfqbe_add_new" value="" name="tx_wfqbe_pi1[wfqbe_add_new]" />
+	<input type="hidden" id="wfqbe_select_wizard" value="" name="tx_wfqbe_pi1[wfqbe_select_wizard]" />
+	<input type="hidden" id="wfqbe_edit_subrecord" value="" name="tx_wfqbe_pi1[wfqbe_edit_subrecord]" />
+	<input type="hidden" id="wfqbe_delete_subrecord" value="" name="tx_wfqbe_pi1[wfqbe_delete_subrecord]" />
+	
+		<!-- ###INSERT_BLOCK### -->
+		<div id="###INSERT_ID###" class="wfqbe_block ###WFQBE_CLASS###">
+			<!-- ###FIELD_BLOCK### -->
+			<span class="label"><label style="font-weight: bold;" for="field_###INSERT_ID###">###INSERT_LABEL###</label> 
+			###INSERT_HELP_LINK###</span>
+			<div class="field">###INSERT_FIELD### ###INSERT_SELECT_WIZARD### ###INSERT_ADD_NEW###</div>
+			<div class="wfqbe_help" id="help_###INSERT_ID###">###INSERT_HELP###</div>
+			<!-- ###REQUIRED_TEMPLATE### -->
+			<div class="wfqbe_required_field" id="wfqbe_required_###INSERT_ID###">###LABEL_REQUIRED###</div>
+			<!-- ###REQUIRED_TEMPLATE### -->
+			<!-- ###CUSTOM_VALIDATION_TEMPLATE### -->
+			<div id="wfqbe_custom_validation_###INSERT_ID###">###CUSTOM_VALIDATION_TEXT###</div>
+			<!-- ###CUSTOM_VALIDATION_TEMPLATE### -->
+			<!-- ###FIELD_BLOCK### -->
+		</div>
+		<!-- ###INSERT_BLOCK### -->
+
+		
+		<div class="wfqbe_block">
+			<!-- ###HIDDEN_BLOCK### -->
+				###INSERT_FIELD###
+			<!-- ###HIDDEN_BLOCK### -->
+		
+			###INSERT_HIDDEN_FIELDS###			
+			<input type="submit" ###XAJAX_CLEAR### name="tx_wfqbe_pi1[###CONF_SUBMIT###]" value="###CONF_SUBMIT_LABEL###" />
+			<!-- ###ADD_NEW_CANCEL### -->
+				<input type="submit" ###XAJAX_CLEAR### name="tx_wfqbe_pi1[wfqbe_add_new]" value="###LABEL_CANCEL###" />
+			<!-- ###ADD_NEW_CANCEL### -->
+		</div>
+	</form>
+</div>
+<!-- ###INSERT_TEMPLATE### -->
+
+
+<!-- ###INSERT_CONFIRMATION_TEMPLATE### -->
+<div id="###CONF_DIVID###">
+	<form id="###CONF_DIVID###_confirmation_form" method="post" enctype="multipart/form-data" ###XAJAX_SUBMIT### action="###CONF_INSERT###">
+		<!-- ###INSERT_BLOCK### -->
+		<div id="###INSERT_ID###" class="wfqbe_block">
+			<span style="font-weight: bold;">###INSERT_LABEL###</span>
+			###INSERT_VALUE###
+			###INSERT_FIELD###
+		</div>
+		<!-- ###INSERT_BLOCK### -->
+		
+		###INSERT_HIDDEN_FIELDS###
+		
+		<div class="wfqbe_block">
+			<input id="###CONF_DIVID###_insert_confirm" type="submit" ###XAJAX_CLEAR_CONFIRM### name="tx_wfqbe_pi1[submit_insert]" value="###CONF_SUBMIT_LABEL###" />
+			<!-- ###MODIFY_BUTTON### -->
+			<input id="###CONF_DIVID###_insert_modify" type="submit" ###XAJAX_CLEAR_MODIFY### name="tx_wfqbe_pi1[submit_modify]" value="###LABEL_MODIFY###" />
+			<!-- ###MODIFY_BUTTON### -->
+		</div>
+	</form>
+</div>
+<!-- ###INSERT_CONFIRMATION_TEMPLATE### -->
+
+
+<!-- ###INSERT_FINAL_TEMPLATE### -->
+	<form id="###CONF_DIVID###_confirmation_form" method="post" enctype="multipart/form-data" ###XAJAX_SUBMIT### action="###CONF_INSERT###">
+		<!-- ###INSERT_BLOCK### -->
+		<div id="###INSERT_ID###" class="wfqbe_block">
+			<span style="font-weight: bold;">###INSERT_LABEL###</span>
+			###INSERT_VALUE###
+		</div>
+		<!-- ###INSERT_BLOCK### -->
+		
+		<div class="wfqbe_block">
+			<input type="submit" ###XAJAX_CLEAR### name="tx_wfqbe_pi1[new]" value="###LABEL_NEW_RECORD###" />
+		</div>
+	</form>
+<!-- ###INSERT_FINAL_TEMPLATE### -->
+
+
+
+<!-- ###SELECT_WIZARD_TEMPLATE### -->
+<div id="###CONF_DIVID###">
+<form id="###CONF_DIVID###_form" method="post" enctype="multipart/form-data" ###XAJAX_SUBMIT### action="###CONF_INSERT###">
+	<div class="wfqbe_description">###WFQBE_DESCRIPTION###</div>
+	###INSERT_HIDDEN_FIELDS###
+	<table summary="###TABLE_SUMMARY###" class="wfqbe_table_results">
+		<caption><em>###TABLE_CAPTION###</em></caption>
+		<thead>
+			<tr class="wfqbe_table_header">
+				<!-- ###TH_TAG### -->
+				<th scope="col">###COLUMN_NAME###</th>
+				<!-- ###TH_TAG### -->
+				<th scope="col">###LABEL_SELECT###</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- ###TABLE_DATA### -->
+			<tr  class="###WFQBE_CLASS###">
+				<!-- ###TD_TAG### -->
+				<td>###COLUMN_DATA###</td>
+				<!-- ###TD_TAG### -->
+				<td><input###WFQBE_SELECT_WIZARD_SELECTED### type="###WFQBE_SELECT_WIZARD_TYPE###" name="tx_wfqbe_pi1[###WFQBE_SELECT_WIZARD###][]" value="###INSERT_FIELD###" /></td>
+			</tr>
+			<!-- ###TABLE_DATA### -->
+			<!-- ###TABLE_NOVALUE### -->
+			<tr  class="###WFQBE_CLASS###">
+				<td colspan="###COLUMN_COLSPAN###">###LABEL_NO_VALUE###</td>
+				<td><input type="radio" name="tx_wfqbe_pi1[###WFQBE_SELECT_WIZARD###]" value="" /></td>
+			</tr>
+			<!-- ###TABLE_NOVALUE### -->
+		</tbody>
+	</table>
+	<br />
+		
+	<div class="wfqbe_block">
+		<input type="submit" ###XAJAX_CLEAR### name="tx_wfqbe_pi1[wfqbe_select_wizard]" value="###LABEL_CANCEL###" />
+		<input type="submit" ###XAJAX_CLEAR### name="tx_wfqbe_pi1[wfqbe_select_wizard]" value="###LABEL_INSERT###" />
+	</div>
+	
+</form>
+</div>
+<!-- ###SELECT_WIZARD_TEMPLATE### -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_wfqbe_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="prev">Previous page</label>
+			<label index="next">Next page</label>
+			<label index="page">Page</label>
+			<label index="page_separator"> - </label>
+			<label index="of">of</label>
+			<label index="prev_link">&lt;&lt;</label>
+			<label index="next_link">&gt;&gt;</label>
+			<label index="pagebrowser_records">Records from ###PAGE_RECORDS_FROM### to ###PAGE_RECORDS_TO### of ###PAGE_RECORDS_TOTAL###</label>
+			<label index="go_to_page">Go to page </label>
+			<label index="search_submit">Search</label>
+			<label index="delete_submit">Delete</label>
+			<label index="update_submit">Update</label>
+			<label index="insert_submit">Insert</label>
+			<label index="update_confirm">Confirm changes</label>
+			<label index="insert_confirm">Confirm insert</label>
+			<label index="delete_confirm">Confirm delete</label>
+			<label index="required">Please, complete this field</label>
+			<label index="csv_link">Export in CSV</label>
+			<label index="cancel">Cancel</label>
+			<label index="modify">Modify</label>
+			<label index="new_record">New record</label>
+			<label index="select">Select</label>
+			<label index="no_value">No value</label>
+			<label index="not_allowed_idrestricting">Not allowed due to restriction in action</label>
+			<label index="commit_result_edit">Record updated</label>
+			<label index="commit_result_delete">Record deleted</label>
+			<label index="commit_result_insert">Record inserted</label>
+			<label index="please_confirm">Confirm operation</label>
+			<label index="no_data">No data</label>
+			<label index="empty_results">No results found</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="prev">Pagina precedente</label>
+			<label index="next">Pagina successiva</label>
+			<label index="page">Pagina</label>
+			<label index="of">di</label>
+			<label index="prev_link">&lt;&lt;</label>
+			<label index="next_link">&gt;&gt;</label>
+			<label index="pagebrowser_records">Record da ###PAGE_RECORDS_FROM### a ###PAGE_RECORDS_TO### di ###PAGE_RECORDS_TOTAL###</label>
+			<label index="go_to_page">Vai a pagina </label>
+			<label index="search_submit">Ricerca</label>
+			<label index="delete_submit">Cancella</label>
+			<label index="update_submit">Aggiorna</label>
+			<label index="insert_submit">Inserisci</label>
+			<label index="update_confirm">Conferma modifiche</label>
+			<label index="insert_confirm">Conferma inserimento</label>
+			<label index="delete_confirm">Conferma cancellazione</label>
+			<label index="required">Questo campo è obbligatorio</label>
+			<label index="csv_link">Esporta in formato CSV</label>
+			<label index="cancel">Cancella</label>
+			<label index="modify">Indietro</label>
+			<label index="new_record">Nuovo record</label>
+			<label index="select">Seleziona</label>
+			<label index="no_value">Nessun valore</label>
+			<label index="not_allowed_idrestricting">Operazione non autorizzata per accesso riservato</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+            <label index="prev">Vorherige Seite</label>
+            <label index="next">Nächste Seite</label>
+            <label index="page">Seite</label>
+            <label index="of">von</label>
+            <label index="pagebrowser_records">Einträge ###PAGE_RECORDS_FROM### bis ###PAGE_RECORDS_TO### von ###PAGE_RECORDS_TOTAL###</label>
+            <label index="go_to_page">Springe zur Seite</label>
+            <label index="search_submit">Suchen</label>
+            <label index="delete_submit">Löschen</label>
+            <label index="update_submit">Aktualisieren</label>
+            <label index="insert_submit">Einfügen</label>
+            <label index="update_confirm">Ändern bestätigen</label>
+            <label index="insert_confirm">Einfügen bestätigen</label>
+            <label index="delete_confirm">Löschen bestätigen</label>
+            <label index="required">Bitte dieses Feld ausfüllen</label>
+            <label index="csv_link">Export nach CSV</label>
+            <label index="cancel">Abbrechen</label>
+            <label index="modify">Ändern</label>
+            <label index="new_record">Neuer Eintrag</label>
+            <label index="select">Auswahl</label>
+            <label index="no_value">Kein Wert</label>
+        </languageKey>
+		<languageKey index="gr" type="array">
+			<label index="prev">Προηγούμενη σελίδα</label>
+			<label index="next">Επόμενη σελίδα</label>
+			<label index="go_to_page">Μετάβαση στη σελίδα</label>
+			<label index="search_submit">Αναζήτηση</label>
+			<label index="delete_submit">Διαγραφή</label>
+			<label index="update_submit">Αποθήκευση</label>
+			<label index="insert_submit">Εισαγωγή</label>
+			<label index="required">Παρακαλώ, συμπληρώστε αυτό το πεδίο</label>
+			<label index="csv_link">εξαγωγή σε csv αρχείο</label>
+			<label index="cancel">Ακύρωση</label>
+			<label index="modify">Τροποποίηση</label>
+			<label index="new_record">Νέα εγγραφή</label>
+			<label index="select">Επιλογή</label>
+			<label index="no_value">Δεν υπάρχει τιμή</label>
+		</languageKey>
+	</data>
+</T3locallang>

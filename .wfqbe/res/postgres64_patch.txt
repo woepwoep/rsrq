@@ -1,0 +1,19 @@
+207,208d206
+< 		$tablename = ($showSchema ? 'schemaname||\'.\'||' : '').'tablename';
+< 		$viewname = ($showSchema ? 'schemaname||\'.\'||' : '') .'viewname';
+210c208
+< 	    	$this->metaTablesSQL = "select $tablename as tablename,'T' from pg_tables where tablename not like 'pg\_%'
+---
+> 	    	$this->metaTablesSQL = "select tablename,'T' from pg_tables where tablename not like 'pg\_%'
+213c211
+<         select $viewname as viewname,'V' from pg_views where viewname not like 'pg\_%'  and schemaname  not in ('pg_catalog','information_schema') ";
+---
+>         select viewname,'V' from pg_views where viewname not like 'pg\_%'  and schemaname  not in ( 'pg_catalog','information_schema') ";
+220c218
+< select $tablename as tablename,'T' from pg_tables where tablename like $mask and schemaname not in ( 'pg_catalog','information_schema')  
+---
+> select tablename,'T' from pg_tables where tablename like $mask and schemaname not in ( 'pg_catalog','information_schema')  
+222c220
+< select $viewname as viewname,'V' from pg_views where viewname like $mask and schemaname  not in ( 'pg_catalog','information_schema')  ";
+---
+> select viewname,'V' from pg_views where viewname like $mask and schemaname  not in ( 'pg_catalog','information_schema')  ";

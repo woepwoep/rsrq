@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for wfqbe module tx_wfqbe_query_querywiz0</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">Wizard for insert form</label>
+			<label index="time">Time mode?</label>
+			<label index="nlp">Show help text?</label>
+			<label index="format">Date format</label>
+			<label index="convert_timestamp">Convert to timestamp?</label>
+			<label index="convert_to_date_oracle">Convert "to_date" (Oracle only)?</label>
+			<label index="date2cal">Use old date2cal datepicker?</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="title">Wizard la creazione di form di inserimento e modifica</label>
+			<label index="time">Modalità time?</label>
+			<label index="nlp">Visualizza messaggio?</label>
+			<label index="convert_timestamp">Converti in timestamp?</label>
+			<label index="format">Formato data</label>
+		</languageKey>
+		<languageKey index="gr" type="array">
+			<label index="title">Οδηγός δημιουργίας φόρμας εισαγωγής</label>
+		</languageKey>
+	</data>
+</T3locallang>

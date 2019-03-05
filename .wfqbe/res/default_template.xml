@@ -1,0 +1,22 @@
+<!-- ###RESULT_TEMPLATE### -->
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<results id="###CONF_DIVID###">
+<!-- ###TABLE_DATA### -->
+<data>
+	<!-- ###TD_TAG### -->
+	<###COLUMN_NAME_I###>###COLUMN_DATA###</###COLUMN_NAME_I###>
+	<!-- ###TD_TAG### -->
+</data>
+<!-- ###TABLE_DATA### -->
+</results>
+<!-- ###RESULT_TEMPLATE### -->
+
+
+
+
+
+<!-- ###EMPTY_RESULT_TEMPLATE### -->
+<results id="###CONF_DIVID###">
+	<empty_results>###CONF_EMPTYTEXT###</empty_results>
+</results>
+<!-- ###EMPTY_RESULT_TEMPLATE### -->

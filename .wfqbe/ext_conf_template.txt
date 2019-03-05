@@ -1,0 +1,2 @@
+  # cat=provider/general; type=string; label= Save mode:set this to 'xml' to save data in XML format, 'serialize' to save data as serialized objects (the second choice is the default one)
+mode = serialize

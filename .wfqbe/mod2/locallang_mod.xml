@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;web_txwfqbeM2&quot; - header, description</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="mlang_tabs_tab">DB management</label>
+            <label index="mlang_labels_tabdescr">This module allows you to manage external DBs</label>
+            <label index="mlang_labels_tablabel">DB management</label>
+        </languageKey>
+    </data>
+</T3locallang>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<link rel="stylesheet" href="stile.css" title=
+    "Stile Normale" type="text/css"/>-->
+<title>WFQBE Mail Example Template</title>
+</head>
+
+<body>
+
+
+
+<!-- ###MAIL_ADMIN_INSERT### -->
+<h2 class="first">New record</h2><br />
+Dear Admin,<br />
+###FIELD_name### just inserted the following new record:<br />
+<strong>Born:</strong> ###FIELD_address###<br />
+<strong>Race:</strong> ###FIELD_race###<br />
+<strong>Title:</strong> ###FIELD_title###<br />
+<strong>Link:</strong> ###FIELD_www###<br />
+<br />
+<strong>Record created on:</strong> ###FIELD_crdate###<br />
+###FIELD_uid###		
+<!-- ###MAIL_ADMIN_INSERT### -->
+
+
+<!-- ###MAIL_USER_INSERT### -->
+<h2 class="first">New record inserted</h2><br />
+Dear ###FIELD_name###, you just inserted the following new record:<br />
+<strong>Born:</strong> ###FIELD_address###<br />
+<strong>Race:</strong> ###FIELD_race###<br />
+<strong>Title:</strong> ###FIELD_title###<br />
+<strong>Link:</strong> ###FIELD_www###<br />
+<br />
+<strong>Record created on:</strong> ###FIELD_crdate###<br />
+###FIELD_uid###		
+<!-- ###MAIL_USER_INSERT### -->
+
+
+</body>
+
+</html>
