@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-02-14T12:30:13Z" product-name="wfqbe">
+    <header/>
+    <body>
+      <trans-unit id="sheet_general">
+        <source>General</source>
+      </trans-unit>
+      <trans-unit id="div_id">
+        <source>ID for the div container</source>
+      </trans-unit>
+      
+      <trans-unit id="sheet_database">
+        <source>Database</source>
+      </trans-unit>
+      <trans-unit id="targetTable">
+        <source>Target table</source>
+      </trans-unit>
+      <trans-unit id="identifiers">
+        <source>Primary key(s)</source>
+      </trans-unit>
+      <trans-unit id="fieldlist">
+        <source>Fieldlist</source>
+      </trans-unit>
+      <trans-unit id="fieldtypes">
+        <source>Field Types</source>
+      </trans-unit>
+	  <trans-unit id="name">
+        <source>Field Name</source>
+      </trans-unit>
+	  <trans-unit id="veldtype">
+        <source>Field Type</source>
+      </trans-unit>
+      <trans-unit id="valuta">
+        <source>Currency format</source>
+      </trans-unit>
+	  <trans-unit id="argument">
+        <source>Select query</source>
+      </trans-unit>
+	  <trans-unit id="optionlist">
+        <source>Option list</source>
+      </trans-unit>
+	  <trans-unit id="additionalargument">
+        <source>onClick (Javascript)</source>
+      </trans-unit>
+	  <trans-unit id="targetfield">
+        <source>XXX Targetfield</source>
+      </trans-unit>
+	  <trans-unit id="custom">
+        <source>XXX Custom Fieldtype</source>
+      </trans-unit>
+	  <trans-unit id="fixedvalues">
+        <source>Fixed values</source>
+      </trans-unit>
+	  
+	  <trans-unit id="sheet_template">
+        <source>Template</source>
+      </trans-unit>
+      <trans-unit id="templateFile">
+        <source>Fluid template file</source>
+      </trans-unit>
+	  <trans-unit id="caption">
+        <source>Caption</source>
+      </trans-unit>
+	  
+	  <trans-unit id="sheet_fields">
+        <source>Fields</source>
+      </trans-unit>
+      <trans-unit id="fielddefinitions">
+        <source>Field Definitions</source>
+      </trans-unit>
+	  <trans-unit id="caption">
+        <source>Caption</source>
+      </trans-unit>
+	  
+	  <trans-unit id="sheet_validation">
+        <source>Validation</source>
+      </trans-unit>
+	  <trans-unit id="validator">
+        <source>Validator</source>
+      </trans-unit>
+	  <trans-unit id="field_name">
+        <source>Field Name</source>
+      </trans-unit>
+	  <trans-unit id="please_select">
+        <source>--- Please Select ---</source>
+      </trans-unit>
+	  
+      <trans-unit id="sheet_actions">
+        <source>Actions</source>
+      </trans-unit>
+      <trans-unit id="redirectPage">
+        <source>redirectPage</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

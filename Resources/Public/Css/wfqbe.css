@@ -1,0 +1,106 @@
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-style: italic;
+}
+
+.isRequired::before {
+  content: "* ";
+}
+
+.table th, .table td {
+  padding: 0.25rem;
+}
+
+.table {
+  font-size: small;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.wfqbe_block {
+  clear: both;
+}
+
+
+/* overige css */
+.wfqbe_description {
+  background: none repeat scroll 0 0 lightblue;
+  border-radius: 3px;
+  font-style: italic;
+  margin: -22px 0 15px;
+  padding: 4px 10px;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+.Listing {
+  background: none repeat scroll 0 0 lightyellow;
+  border: 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  margin: 15px 0;
+  padding: 10px;
+  float: left;
+  width: 100%;
+  clear: both; 
+  float: none;
+}
+
+#Show {
+  background: repeat scroll 0 0 lightseagreen;
+  border: 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  margin: 15px 0;
+  padding: 10px;
+  float: left;
+  width: 100%;
+  clear: both;
+  float: none;
+}
+
+.Show_label,
+.label {
+  float: left;
+  min-width: 7em;
+  text-align: right;
+  font-size: 1em;
+  color: #333;
+}
+
+.Show_field,
+.field {
+  font-weight: 600;
+  margin: 4px 5px 0 0 ;
+}
+
+
+.Show_titel,
+.titel {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+#CUD {
+  min-width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: wheat;
+  padding: 10px;
+  float: left;
+}
+
+
+.wfqbe_table_header {
+  background: lightgreen;
+}
+
+.integer {
+  text-align: right;
+}

@@ -1,0 +1,49 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace rs=RedSeadog\Wfqbe\ViewHelpers}
+
+<f:comment>
+<h3>
+   EXT:wfqbe/Resources/Private/Partials/Grid.html
+</h3>
+
+
+<f:debug>{_all}</f:debug>
+</f:comment>
+
+<f:asset.css identifier="Detail-{cObject.uid}">
+.grid-container-{cObject.uid} {
+  display: grid;
+  grid-template-columns: 
+    <v:iterator.for from='1' to='{flexformdata.numberOfColumns}'>
+      auto 
+  	</v:iterator.for>;
+  grid-gap: 5px;
+  background-color: #2196F3;
+  padding: 3px;
+}
+</f:asset.css>
+
+
+<div class="grid-container grid-container-{cObject.uid}">
+	<f:for each="{rows}" as="row">
+		<f:for each="{columnNames}" as="columnName">
+			<f:if condition='{columnName.nodisplay} != "1"'>
+				<div class="{flexformdata.div_id}_label">
+					<b><f:translate id="{columnName.name}" key="{columnName.name}" default="{columnName.name}" />:</b>
+				</div>
+				<div>
+				<f:if condition="{columnName.relationField}">
+					<f:then>
+						<f:link.action pageUid="{columnName.childPage}" arguments="{linkValue: '{row.{columnName.relationField}}'}">
+							<f:render partial="Fieldtypes/{columnName.type}" arguments="{_all}" />
+						</f:link.action>
+					</f:then>
+					<f:else>
+						<f:render partial="Fieldtypes/Display/{columnName.type}" arguments="{_all}" />
+					</f:else>
+				</f:if>
+				</div>
+			</f:if>
+		</f:for>
+	</f:for>
+</div>

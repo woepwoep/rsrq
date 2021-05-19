@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:sheet_validation</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <field>
+                <section>1</section>
+                <type>array</type>
+                <title>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:validator</title>
+                <el>
+                    <validation>
+                        <type>array</type>
+                        <el>
+                            <name>
+                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:field_name</label>
+                                <config>
+                                    <type>input</type>
+                                    <size>45</size>
+                                    <max>45</max>
+                                    <eval>trim</eval>
+                                </config>
+                            </name>
+                            <validator>
+                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:validator</label>
+                                <config>
+                                    <type>select</type>
+                                    <renderType>selectSingle</renderType>
+                                    <autosizemax>2</autosizemax>
+                                    <items type="array">
+                                        <numIndex index="0" type="array">
+                                            <numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:please_select</numIndex>
+                                            <numIndex index="1"></numIndex>
+                                        </numIndex>
+                                        <numIndex index="1" type="array">
+                                            <numIndex index="0">required</numIndex>
+                                            <numIndex index="1">required</numIndex>
+                                        </numIndex>
+                                        <numIndex index="2" type="array">
+                                            <numIndex index="0">readonly</numIndex>
+                                            <numIndex index="1">readonly</numIndex>
+                                        </numIndex>
+                                    </items>
+                                    <maxitems>1</maxitems>
+                                    <minitems>1</minitems>
+                                    <size>1</size>
+                                </config>
+                            </validator>
+                        </el>
+                    </validation>
+                </el>
+            </field>
+        </el>
+    </ROOT>
+</T3DataStructure>

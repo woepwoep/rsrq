@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetGeneral.xml</sDEF>
+        <database>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetDatabase.xml</database>
+        <template>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetTemplate.xml</template>
+        <validation>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetValidation.xml</validation>
+        <actions>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetActions.xml</actions>
+    </sheets>
+</T3DataStructure>

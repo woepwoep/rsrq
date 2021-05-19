@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-02-14T12:30:13Z" product-name="wfqbe">
+        <header/>
+        <body>
+            <trans-unit id="piquery.title">
+                <source>RSRQ piquery = list mode for TYPO3 v10</source>
+            </trans-unit>
+            <trans-unit id="pidetail.title">
+                <source>RSRQ pidetail = detail mode for TYPO3 v10</source>
+            </trans-unit>
+            <trans-unit id="picud.title">
+                <source>RSRQ picud = add/update/delete mode for TYPO3 v10</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

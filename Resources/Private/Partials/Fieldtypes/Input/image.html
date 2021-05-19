@@ -1,0 +1,10 @@
+<v:media.exists file="fileadmin/user_upload/{row.{columnName.name}}">
+    <f:then>
+        <f:image src="fileadmin/user_upload/{row.{columnName.name}}" maxWidth="150" maxHeight="150" />
+        <f:form.upload name="{columnName.name}" value="fileadmin/user_upload/{row.{columnName.name}}" /> <br />
+        {row.{columnName.name}}
+    </f:then>
+    <f:else>
+        <f:form.upload name="{columnName.name}" value="fileadmin/user_upload/{row.{columnName.name}}" />
+    </f:else>
+</v:media.exists>

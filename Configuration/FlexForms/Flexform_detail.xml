@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetGeneral.xml</sDEF>
+        <database>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetDatabase.xml</database>
+        <template>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetTemplate.xml</template>
+        <actions>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetActions.xml</actions>
+        <results>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetResults.xml</results>
+        <child>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetChild.xml</child>
+    </sheets>
+</T3DataStructure>

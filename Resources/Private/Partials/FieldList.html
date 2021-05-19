@@ -1,0 +1,23 @@
+<f:for each="{columnNames}" as="columnName">
+    <f:if condition="{columnName.nodisplay} = '1'">
+		<f:then>
+			<f:form.hidden name="{columnName.name}" value="{row.{columnName.name}}" />
+		</f:then>
+		<f:else>
+			<tr>
+				<td>
+					<span class="label {f:if(condition: '{columnName.validation}==required', then: 'isRequired')}">
+						<label for="{columnName.name}">
+							<f:translate id="{columnName.name}" key="{columnName.name}" default="{columnName.name}" />
+						</label>
+					</span>
+				</td>
+				<td>
+					<div class="field">
+						<f:render partial="Fieldtypes/Input/{columnName.type}" arguments="{_all}" />
+					</div>
+				</td>
+			</tr>
+		</f:else>
+    </f:if>
+</f:for>

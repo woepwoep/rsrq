@@ -1,0 +1,83 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace rs=RedSeadog\Wfqbe\ViewHelpers}
+
+<f:comment>
+<f:debug>{_all}</f:debug>
+ {string -> f:format.raw()}
+ <f:if condition="{i.isFirst}" ><f:format.raw value="{dataSet}" /></f:if>
+</f:comment>
+
+<f:variable name="chartData" value="<rs:array2Chart rows='{rows}' />" />
+
+<f:asset.script identifier="identifier-2" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js" priority="1" />
+
+<f:asset.script identifier="identifier-8" >
+
+const data = {
+  labels: <f:for each="<rs:array2Chart rows='{rows}' />" as="dataSet" iteration="i" >
+                  <f:if condition="{i.isFirst}" ><f:format.raw value="{dataSet}" /></f:if>
+                </f:for>,
+ 
+   datasets: [
+            <f:for each="{chartFields}" as="dataSet" >
+              {
+              type: <f:if condition="1">'{dataSet.chartType}',</f:if>
+              label: <f:if condition="1">'{dataSet.name}',</f:if>
+              data: <f:if condition="1">{chartData.{dataSet.name}},</f:if>
+              backgroundColor: 
+				<f:if condition="{dataSet.chartColor}">
+					<f:then>
+						'{dataSet.chartColor}',
+					</f:then>
+					<f:else>
+						[
+							'rgba(255, 99, 132, 0.6)',
+							'rgba(54, 162, 235, 0.6)',
+							'rgba(255, 206, 86, 0.6)',
+							'rgba(75, 192, 192, 0.6)',
+							'rgba(153, 102, 255, 0.6)',
+							'rgba(255, 159, 64, 0.6)'
+						],
+					</f:else>
+				</f:if>
+              },
+            </f:for>
+        ]
+};
+
+const config = {
+  data: data,
+  options: {
+    elements: {
+      line: {
+        borderWidth: 3
+      }
+    },
+	responsive: true,
+  	plugins: {
+		
+		legend: {
+			display: true,
+			position: 'top',
+			},
+		title: {
+  		display: true,
+  		text: <f:if condition="1">'{flexformdata.caption}',</f:if>
+  		font: {
+            size: 18
+           }
+  		}
+  	}
+  }
+};
+  
+var myChart = new Chart(
+    document.getElementById('myChart-{cObject.uid}'),
+    config
+  );                                                              
+
+</f:asset.script>
+
+<div>
+  <canvas id="myChart-{cObject.uid}"></canvas>
+</div>

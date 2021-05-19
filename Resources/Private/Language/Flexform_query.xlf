@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-02-14T12:30:13Z" product-name="wfqbe">
+    <header/>
+    <body>
+      <trans-unit id="sheet_general">
+        <source>General</source>
+      </trans-unit>
+      <trans-unit id="div_id">
+        <source>ID for the div container</source>
+      </trans-unit>
+      
+      <trans-unit id="sheet_database">
+        <source>Database</source>
+      </trans-unit>
+      <trans-unit id="query">
+        <source>Query</source>
+      </trans-unit>
+      <trans-unit id="debug">
+        <source>Debug</source>
+      </trans-unit>
+      <trans-unit id="columnNames">
+        <source>columnNames</source>
+      </trans-unit>
+      <trans-unit id="sortField">
+        <source>sortField</source>
+      </trans-unit>
+      <trans-unit id="sortOrder">
+        <source>sortOrder</source>
+      </trans-unit>
+      <trans-unit id="fieldtypes">
+        <source>Field Types</source>
+      </trans-unit>
+      <trans-unit id="sortfield">
+        <source>Sort Field</source>
+      </trans-unit>
+      
+      <trans-unit id="sheet_template">
+        <source>Template</source>
+      </trans-unit>
+      <trans-unit id="templateFile">
+        <source>Fluid template file</source>
+      </trans-unit>
+	  <trans-unit id="numberOfColumns">
+		<source>Number of Columns</source>
+	  </trans-unit>
+      <trans-unit id="summary">
+        <source>Summary</source>
+      </trans-unit>
+      <trans-unit id="caption">
+        <source>Caption</source>
+      </trans-unit>
+ 
+      <trans-unit id="sheet_actions">
+        <source>Actions</source>
+      </trans-unit>
+      <trans-unit id="detailPage">
+        <source>Detail page</source>
+      </trans-unit>
+      <trans-unit id="cudPage">
+        <source>CUD page</source>
+      </trans-unit>
+	  <trans-unit id="keyField">
+        <source>keyField</source>
+      </trans-unit>
+	  <trans-unit id="parentField">
+        <source>parentField</source>
+      </trans-unit>
+	  
+      <trans-unit id="sheet_results">
+        <source>Results</source>
+      </trans-unit>
+      <trans-unit id="recordsForPage">
+        <source>Records for page</source>
+      </trans-unit>
+      <trans-unit id="slidingPages">
+        <source>Number of sliding pages</source>
+      </trans-unit>
+      <trans-unit id="emptyResult">
+        <source>Text for empty result</source>
+      </trans-unit>
+      <trans-unit id="csvDownload">
+        <source>Provide CSV Download?</source>
+      </trans-unit>
+	  
+      <trans-unit id="sheet_child">
+        <source>childPage</source>
+      </trans-unit>
+      <trans-unit id="linkFields">
+        <source>Link Fields</source>
+      </trans-unit>
+      <trans-unit id="linkField">
+        <source>Link Field</source>
+      </trans-unit>
+      <trans-unit id="relationField">
+        <source>Relation Field</source>
+      </trans-unit>
+      <trans-unit id="childPage">
+        <source>Child page</source>
+      </trans-unit>
+	  
+      <trans-unit id="sheet_filter">
+        <source>Filter</source>
+      </trans-unit>
+      <trans-unit id="filterFields">
+        <source>Filter Fields</source>
+      </trans-unit>
+      <trans-unit id="filterFieldName">
+        <source>Filter Field Name</source>
+      </trans-unit>
+      <trans-unit id="filterFieldType">
+        <source>Filter Field Type</source>
+      </trans-unit>
+      <trans-unit id="filterFieldWhere">
+        <source>Filter Field Where-clause</source>
+      </trans-unit>
+	  
+	  <trans-unit id="sheet_chart">
+        <source>Chart</source>
+      </trans-unit>
+	  <trans-unit id="chartType">
+        <source>ChartType</source>
+      </trans-unit>
+	  <trans-unit id="chartColor">
+        <source>ChartColor</source>
+      </trans-unit>
+	  <trans-unit id="chartLine">
+        <source>Line</source>
+      </trans-unit>
+	  <trans-unit id="chartBar">
+        <source>Bar</source>
+      </trans-unit>
+	  <trans-unit id="chartRadar">
+        <source>Radar</source>
+      </trans-unit>
+	  <trans-unit id="chartPie">
+        <source>Pie</source>
+      </trans-unit>
+	  <trans-unit id="label">
+        <source>Label (X-axis)</source>
+      </trans-unit>
+	  <trans-unit id="dataSet">
+        <source>Dataset</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

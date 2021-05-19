@@ -1,0 +1,6 @@
+<f:for each="{columnName.select}" as="selectLabel" key="selectKey">
+	<f:if condition="{selectKey}=={row.{columnName.name}}">
+		{selectLabel}
+	</f:if>
+</f:for>
+    

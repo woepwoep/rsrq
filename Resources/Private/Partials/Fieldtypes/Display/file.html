@@ -1,0 +1,10 @@
+<v:media.exists file="fileadmin/user_upload/{row.DocumentLink}">
+    <f:then>
+        <f:link.typolink parameter="fileadmin/user_upload/{row.DocumentLink}" target="_blank" title="{row.{columnName.name}}">
+            {row.{columnName.name}}
+        </f:link.typolink>
+    </f:then>
+    <f:else>
+        {row.{columnName.name}}
+    </f:else>
+</v:media.exists>

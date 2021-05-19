@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-05-17T16:06:12Z" product-name="wfqbe">
+        <header/>
+        <body>
+            <!-- ColumnNames -->
+            <trans-unit id="uid">
+                <source>uid</source>
+            </trans-unit>
+            <trans-unit id="username">
+                <source>Username</source>
+            </trans-unit>
+            <trans-unit id="name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id=first_name">
+                <source>First Name</source>
+            </trans-unit>
+            <trans-unit id="middle_name">
+                <source>Middle Name</source>
+            </trans-unit>
+			<trans-unit id="Activiteit">
+                <source>Joop</source>
+            </trans-unit>
+			<trans-unit id="Soort">
+                <source>Harry</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

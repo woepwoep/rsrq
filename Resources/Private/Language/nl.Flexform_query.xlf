@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-02-14T12:30:13Z" product-name="wfqbe">
+    <header/>
+    <body>
+      <trans-unit id="sheet_general">
+        <source>General</source>
+        <target>Algemeen</target>
+      </trans-unit>
+      <trans-unit id="div_id">
+        <source>ID for the div container</source>
+        <target>ID voor de div container</target>
+      </trans-unit>
+      <trans-unit id="query">
+        <source>Query</source>
+        <target>Query</target>
+      </trans-unit>
+      <trans-unit id="parameterCheck">
+        <source>Execute query if the following parameter is not empty (eg. tx_wfqbe_query|submit means tx_wfqbe_query[submit])</source>
+        <target>Voer query uit indien de volgende parameter is niet leeg (vb. tx_wfqbe_query|submit means tx_wfqbe_query[submit])</target>
+      </trans-unit>
+      <trans-unit id="customTemplate">
+        <source>Template type</source>
+        <target>Sjabloon type</target>
+      </trans-unit>
+      <trans-unit id="customTemplate.I.0">
+        <source>From TypoScript</source>
+        <target>Van TypoScript</target>
+      </trans-unit>
+      <trans-unit id="customTemplate.I.1">
+        <source>Default (Table based)</source>
+        <target>Standaard (HTML tabel)</target>
+      </trans-unit>
+      <trans-unit id="customTemplate.I.2">
+        <source>Custom</source>
+        <target>Zelfgemaakt</target>
+      </trans-unit>
+      <trans-unit id="customTemplate.I.3">
+        <source>Fluid Template</source>
+        <target>Fluid Sjabloon</target>
+      </trans-unit>
+      <trans-unit id="debugQuery">
+        <source>Debug query</source>
+      </trans-unit>
+      <trans-unit id="sheet_results">
+        <source>Results</source>
+        <target>Resultaten</target>
+      </trans-unit>
+      <trans-unit id="recordsForPage">
+        <source>Records for page</source>
+      </trans-unit>
+      <trans-unit id="emptyResult">
+        <source>Text for empty result</source>
+        <target>Tekst voor lege resultaten</target>
+      </trans-unit>
+	  <trans-unit id="numberOfColumns">
+		<source>Number of Columns</source>
+		<target>Aantal Kolommen</target>
+	  </trans-unit>
+      <trans-unit id="summary">
+        <source>Summary</source>
+        <target>Samenvatting</target>
+      </trans-unit>
+      <trans-unit id="caption">
+        <source>Caption</source>
+        <target>Koptekst</target>
+      </trans-unit>
+      <trans-unit id="csvDownload">
+        <source>Provide CSV Download?</source>
+      </trans-unit>
+      <trans-unit id="sheet_search">
+        <source>Search</source>
+        <target>Zoek</target>
+      </trans-unit>
+      <trans-unit id="resultsPage">
+        <source>Results page</source>
+        <target>Resultaten pagina</target>
+      </trans-unit>
+      <trans-unit id="div_search_result_id">
+        <source>ID for the div that contains the results</source>
+      </trans-unit>
+      <trans-unit id="sheet_insert">
+        <source>Insert</source>
+        <target>Toevoegen</target>
+      </trans-unit>
+      <trans-unit id="pageConfirmation">
+        <source>Insert confirmation</source>
+        <target>Bevestigen toevoegen</target>
+      </trans-unit>
+      <trans-unit id="detailedPage">
+        <source>Redirect page on update</source>
+      </trans-unit>
+      <trans-unit id="redirectQuery">
+        <source>Redirect parameters</source>
+      </trans-unit>
+      <trans-unit id="deletedPage">
+        <source>Redirect page on delete</source>
+      </trans-unit>
+      <trans-unit id="clear_cache">
+        <source>Clear cache pages (comma separated uids list)</source>
+      </trans-unit>
+      <trans-unit id="send_email">
+        <source>Send email confirmation to administrator?</source>
+      </trans-unit>
+      <trans-unit id="notify_email">
+        <source>Administrator notify email</source>
+      </trans-unit>
+      <trans-unit id="notify_subject">
+        <source>Subject of the notify email to the administrator</source>
+      </trans-unit>
+      <trans-unit id="send_email_user">
+        <source>Send email confirmation to user?</source>
+      </trans-unit>
+      <trans-unit id="field_email_user">
+        <source>Form field containing email (field number!!!)</source>
+      </trans-unit>
+      <trans-unit id="notify_subject_user">
+        <source>Subject of the notify email to the user</source>
+      </trans-unit>
+      <trans-unit id="mailTemplate">
+        <source>Email template file</source>
+      </trans-unit>
+      <trans-unit id="sheet_cud">
+        <source>Cud</source>
+        <target>Cud</target>
+      </trans-unit>
+	  <trans-unit id="sheet_child">
+        <source>childPage</source>
+        <target>subPagina</target>
+      </trans-unit>
+	  <trans-unit id="linkField">
+        <source>linkField</source>
+        <target>linkVeld</target>
+      </trans-unit>
+	  <trans-unit id="keyField">
+        <source>keyField</source>
+        <target>sleutelVeld</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

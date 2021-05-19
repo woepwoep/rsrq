@@ -1,0 +1,32 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace rs=RedSeadog\Wfqbe\ViewHelpers}
+
+<f:comment>
+<h3>
+   EXT:wfqbe/Resources/Private/Templates/Cud/AddForm.html
+</h3>
+</f:comment>
+
+<div class="container">  
+	<div id="{flexformdata.div_id}">
+		<f:form id="{flexformdata.div_id}_form" name="{flexformdata.div_id}_form" enctype="multipart/form-data" method="post" action="add" arguments="{linkValue: '{keyField}'}" >
+    		
+          <div class="wfqbe_description">{flexformdata.caption} toevoegen</div>
+    		<div class="wfqbe_block">
+            	<div class="table-responsive"> 
+      				<table class="table table-bordered table-hover table-condensed">
+                      <tbody> 
+              			<tbody> 
+							<f:render partial="FieldList" arguments="{_all}" />
+                      </tbody>
+                   </table>
+    			</div>
+          	</div>
+
+    		<div class="wfqbe_block"> 
+				<f:link.page class="btn btn-warning" pageUid="{flexformdata.redirectPage}">Terug</f:link.page>
+      			<f:form.submit class="btn btn-primary" value="Toevoegen" />
+    		</div>	
+      	</f:form>
+  	</div>
+</div>

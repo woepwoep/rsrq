@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:sheet_actions</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <redirectPage>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:redirectPage</label>
+                    <config>
+                        <type>group</type>
+                        <internal_type>db</internal_type>
+                        <allowed>pages</allowed>
+                        <size>1</size>
+                        <maxitems>1</maxitems>
+                        <minitems>0</minitems>
+                        <eval>trim,required</eval>
+                    </config>
+                </TCEforms>
+            </redirectPage>
+        </el>
+    </ROOT>
+</T3DataStructure>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_chart</sheetTitle>
+			<sheetDescription>Display various charts based on the output of the query</sheetDescription>
+            <sheetShortDescr></sheetShortDescr>
+			<displayCond>FIELD:sDEF.renderChart:=:1</displayCond>
+        </TCEforms>
+        <type>array</type>
+        <el>
+			<chartFields>
+				<section>1</section>
+                <type>array</type>
+				<title>ChartFields</title>
+				<el>
+					<typesection>
+						<type>array</type>
+						<el>
+							<name>
+								<TCEforms>
+									<label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:dataSet</label>
+									<config>
+										<type>select</type>
+										<renderType>selectSingle</renderType>
+										<itemsProcFunc>RedSeadog\Wfqbe\UserFunc\Field->showQueryColumns</itemsProcFunc>
+										<minitems>0</minitems>
+										<maxitems>1</maxitems>
+										<size>1</size>
+									</config>
+								</TCEforms>
+							</name>
+							<chartType>
+								<TCEforms>
+									<label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartType</label>
+									<config>
+										<type>select</type>
+										<renderType>selectSingle</renderType>
+										<items>
+											<numIndex index="0">
+												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartLine</numIndex>
+												<numIndex index="1">line</numIndex>
+											</numIndex>
+											<numIndex index="1">
+												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartBar</numIndex>
+												<numIndex index="1">bar</numIndex>
+											</numIndex>
+											<numIndex index="2">
+												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartRadar</numIndex>
+												<numIndex index="1">radar</numIndex>
+											</numIndex>
+											<numIndex index="3">
+												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartPie</numIndex>
+												<numIndex index="1">pie</numIndex>
+											</numIndex>
+										</items>
+									</config>
+								</TCEforms>
+							</chartType>
+							<chartColor>
+								<TCEforms>
+									<label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartColor</label>
+									<config>
+										<type>input</type>
+										<renderType>colorpicker</renderType>
+										<size>10</size>
+									</config>
+								</TCEforms>
+							</chartColor>
+						</el>
+					</typesection>
+				</el>
+			</chartFields>
+        </el>
+    </ROOT>
+</T3DataStructure>

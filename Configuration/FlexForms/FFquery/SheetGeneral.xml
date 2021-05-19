@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_general</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <div_id>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:div_id</label>
+                    <config>
+                        <type>input</type>
+                        <size>45</size>
+                        <max>45</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </div_id>
+			<gridMode>
+                <TCEforms>
+                    <label>GridMode (Y/N)</label>
+                    <config>
+                        <type>check</type>
+                        <items type="array">
+                            <numIndex index="0" type="array">
+                                <numIndex index="0"></numIndex>
+                                <numIndex index="1">gridMode</numIndex>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </gridMode>
+			<numberOfColumns>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:numberOfColumns</label>
+                    <config>
+                        <type>input</type>
+                        <size>5</size>
+                        <max>2</max>
+                        <eval>required,trim,num,int</eval>
+                        <range>
+                            <lower>1</lower>
+                        </range>
+                        <default>4</default>
+                    </config>
+					<displayCond>FIELD:gridMode:=:1</displayCond>
+					<onChange>reload</onChange>
+                </TCEforms>
+            </numberOfColumns>
+            <isChildPage>
+                <TCEforms>
+                    <label>isChildPage (Y/N)</label>
+                    <config>
+                        <type>check</type>
+                        <items type="array">
+                            <numIndex index="0" type="array">
+                                <numIndex index="0"></numIndex>
+                                <numIndex index="1">isChildPage</numIndex>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </isChildPage>
+			<renderChart>
+                <TCEforms>
+                    <label>Render Chart (Y/N)</label>
+                    <config>
+                        <type>check</type>
+                        <items type="array">
+                            <numIndex index="0" type="array">
+                                <numIndex index="0"></numIndex>
+                                <numIndex index="1">renderChart</numIndex>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </renderChart>
+        </el>
+    </ROOT>
+</T3DataStructure>

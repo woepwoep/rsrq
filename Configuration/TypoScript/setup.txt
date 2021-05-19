@@ -1,0 +1,37 @@
+page {
+  includeCSS {
+    wfqbe = EXT:wfqbe/Resources/Public/Css/wfqbe.css
+    datepicker = EXT:wfqbe/Resources/Public/Css/bootstrap-datepicker3.css
+    timepicker = EXT:wfqbe/Resources/Public/Css/jquery.timepicker.css
+  }
+ 
+  includeJSFooter {
+    timepicker = EXT:wfqbe/Resources/Public/JavaScript/jquery.timepicker.min.js
+    datepicker = EXT:wfqbe/Resources/Public/JavaScript/bootstrap-datepicker.js
+    datepicker_nl = EXT:wfqbe/Resources/Public/JavaScript/bootstrap-datepicker.nl.min.js   
+    bouncer = EXT:wfqbe/Resources/Public/JavaScript/bouncer.polyfills.min.js
+    goback = EXT:wfqbe/Resources/Public/JavaScript/goBack.js
+    wfc = EXT:wfqbe/Resources/Public/JavaScript/WhenFieldChanges.js
+    CUD = EXT:wfqbe/Resources/Public/JavaScript/CUD_form.js
+  }
+}
+
+plugin.tx_wfqbe {
+  view {
+    templateRootPaths {
+      0 = EXT:tx_wfqbe/Resources/Private/Templates/
+      1 = {$plugin.tx_wfqbe.view.templateRootPath}
+    }
+    partialRootPaths {
+      0 = EXT:tx_wfqbe/Resources/Private/Partials/
+	  1 = {$plugin.tx_wfqbe.view.partialRootPath}
+    }
+    layoutRootPaths {
+      0 = EXT:tx_wfqbe/Resources/Private/Layouts/
+      1 = {$plugin.tx_wfqbe.view.layoutRootPath}
+    }
+  }
+  persistence {
+    storagePid = {$plugin.tx_wfqbe.persistence.storagePid}
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:sheet_general</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <div_id>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:div_id</label>
+                    <config>
+                        <type>input</type>
+                        <size>45</size>
+                        <max>45</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </div_id>
+        </el>
+    </ROOT>
+</T3DataStructure>

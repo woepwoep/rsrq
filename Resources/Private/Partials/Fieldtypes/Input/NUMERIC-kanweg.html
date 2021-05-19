@@ -1,0 +1,7 @@
+<f:form.textfield
+    class="form-control {columnName.type}"
+    name="{columnName.name}"
+    value="{row.{columnName.name}}"
+    required="{f:if(condition: '{columnName.validation}==required', then: '1', else: '0')}"
+    readonly="{f:if(condition: '{columnName.validation}==readonly', then: '1')}"
+/>

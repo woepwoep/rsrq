@@ -1,0 +1,77 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers} 
+{namespace rs=RedSeadog\Wfqbe\ViewHelpers}
+
+<f:comment>
+<f:debug>{_all}</f:debug>
+<h3>
+  fileadmin/tmpl/wfqbe/MultiColumns.html
+</h3>
+</f:comment>
+
+<div class="container">
+        <div class="wfqbe_description">
+            <f:if condition="{flexformdata.summary}">
+                <f:then>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        {flexformdata.caption}
+                    </button>
+                </f:then>
+                <f:else>
+                    {flexformdata.caption}
+                </f:else>
+            </f:if>
+        </div>
+		
+		<div class="summary">
+			<div class="collapse" id="collapseExample">
+				<div class="card card-body bg-light">{flexformdata.summary}</div>
+			</div>
+		</div>
+		
+      <f:if condition="{flexformdata.gridMode}">
+      	<f:then>
+          <f:render partial="Grid.html" arguments="{_all}" />
+        </f:then>
+        <f:else>
+          <div class="wfqbe_block {flexformdata.div_id}">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-condensed">
+                    <tbody>
+                        <f:for each="{rows}" as="row">
+                            <f:for each="{columnNames}" as="columnName">
+                                <f:if condition='{columnName.nodisplay} != "1"'>
+                                    <tr>
+                                        <td>
+                                            <div class="{flexformdata.div_id}_label">
+                                                <b>
+                                                    <f:translate id="{columnName.name}" key="{columnName.name}" default="{columnName.name}" />:
+                                                </b>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <f:if condition="{columnName.relationField}">
+                                                <f:then>
+                                                    <f:link.action pageUid="{columnName.childPage}" arguments="{linkValue: '{row.{columnName.relationField}}'}">
+                                                        <f:render partial="Fieldtypes/{columnName.type}" arguments="{_all}" />
+                                                    </f:link.action>
+                                                </f:then>
+                                                <f:else>
+                                                    <f:render partial="Fieldtypes/Display/{columnName.type}" arguments="{_all}" />
+                                                </f:else>
+                                            </f:if>
+                                        </td>
+                                    </tr>
+                                </f:if>
+                            </f:for>
+                        </f:for>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </f:else>
+      </f:if>
+      <div class="wfqbe_block">
+        <br>
+        <button class="btn btn-warning" onclick="goBack()">Terug</button>
+      </div>
+</div>

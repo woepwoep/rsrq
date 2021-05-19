@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-02-14T12:30:13Z" product-name="wfqbe">
+    <header/>
+    <body>
+      <trans-unit id="uid">
+        <source>uid</source>
+      </trans-unit>
+      <trans-unit id="username">
+        <source>Username</source>
+		<target>Gebruiker</target>
+      </trans-unit>
+      <trans-unit id="name">
+        <source>Name</source>
+        <target>Naam</target>
+      </trans-unit>
+      <trans-unit id="first_name">
+        <source>First Name</source>
+        <target>Voornaam</target>
+      </trans-unit>
+      <trans-unit id="middle_name">
+        <source>Middle Name</source>
+        <target>tussenvoegsel</target>
+      </trans-unit>
+      <trans-unit id="Query.title">
+        <source>Title</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="Query.description">
+        <source>Description</source>
+        <target>Omschrijving</target>
+      </trans-unit>
+	  <trans-unit id="Query.sortField">
+        <source>sortField</source>
+        <target>sorteer Veld</target>
+      </trans-unit>
+      <trans-unit id="Query.query">
+        <source>Query</source>
+      </trans-unit>
+      <trans-unit id="Query.search">
+        <source>Search module</source>
+      </trans-unit>
+      <trans-unit id="Query.insertq">
+        <source>Insert form</source>
+      </trans-unit>
+      <trans-unit id="Query.connectionname">
+        <source>Connection name from LocalConfiguration.php</source>
+        <target>Naam van de DB connectie uit LocalConfiguration.php</target>
+      </trans-unit>
+      <trans-unit id="Query.searchinquery">
+        <source>Results query</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

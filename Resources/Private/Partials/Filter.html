@@ -1,0 +1,43 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers} 
+{namespace rs=RedSeadog\Wfqbe\ViewHelpers}
+
+<div class="container">
+    <div id="{flexformdata.div_id}">
+        <f:form id="CUD_form" name="CUD_form" enctype="multipart/form-data" method="post" action="list">
+            <div class="wfqbe_description">Filter</div>
+
+            <div class="wfqbe_block">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-condensed">
+                        <thead class="wfqbe_table_header">
+                            <tr>
+                                <f:for each="{filterFieldList}" as="filterField">
+                                    <th>
+                                        <div class="{filterField.filterFieldName}_label">
+                                            <span><f:translate id="{filterField.filterFieldName}" key="{filterField.filterFieldName}" default="{filterField.filterFieldName}" /></span>
+                                        </div>
+                                    </th>
+                                </f:for>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <f:for each="{filterFieldList}" as="filterField">
+                                    <td>
+                                        <f:render partial="Fieldtypes/Filter/{filterField.filterFieldType}" arguments="{_all}" />
+                                    </td>
+                                </f:for>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="wfqbe_block">
+                <f:link.page class="btn btn-warning" pageUid="{flexformdata.redirectPage}">Leegmaken</f:link.page>
+                <f:form.submit class="btn btn-primary" value="Filteren" />
+            </div>
+        </f:form>
+    </div>
+</div>

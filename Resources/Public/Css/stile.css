@@ -1,0 +1,26 @@
+table.wfqbe_table_results{
+border: solid 1px black; 
+margin:1em;
+border-collapse:collapse;
+width: 100%;
+}
+.wfqbe_table_results th {border: solid 0.06em black; 
+			padding: 0.2em;
+			background-color: #AAAAAA;
+    }
+.wfqbe_table_results td {border: solid 0.06em black;
+          padding: 0.35em; 
+		  text-align:center;
+    }			
+caption{
+caption-side:bottom;
+/*color:#FF0000;*/
+}
+
+.wfqbe_odd{
+background-color:#FFFFFF;
+}
+
+.wfqbe_even{
+background-color:#EEEEEE;
+}

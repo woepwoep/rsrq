@@ -1,0 +1,39 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+{namespace rs=RedSeadog\Wfqbe\ViewHelpers}
+
+<f:comment>
+EXT:.../Cud/UpdateForm.html
+	<f:debug>{_all}</f:debug>
+</f:comment>
+
+
+<div class="container">  
+	<div id="{flexformdata.div_id}">
+		<f:form id="CUD_form" name="CUD_form" enctype="multipart/form-data" method="post" action="update" arguments="{linkValue: '{linkValue}'}"  >
+          
+    		<div class="wfqbe_description">{flexformdata.caption} wijzigen</div>
+				
+			<f:if condition="{flexformdata.cudPage}">
+			  <f:link.action controller="Cud" pluginName="Picud" action="addForm" pageUid="{flexformdata.cudPage}" >
+				<button class="btn btn-secondary" type="button" >+</button>
+			  </f:link.action> 
+			</f:if>
+				<div class="wfqbe_block">
+					<div class="table-responsive"> 
+						<table class="table table-bordered table-hover table-condensed">
+						  <tbody> 
+							<f:render partial="FieldList" arguments="{_all}" />
+						  </tbody>
+					   </table>
+					</div>
+				</div>
+				
+				<div class="wfqbe_block"> 
+                	<f:link.page class="btn btn-warning" pageUid="{flexformdata.redirectPage}">Terug</f:link.page>
+					<f:form.submit class="btn btn-primary" value="Wijzigen" />
+				</div>
+				
+      	</f:form>
+		
+  	</div>
+</div>

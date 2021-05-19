@@ -1,0 +1,19 @@
+<f:if condition="{request.controllerActionName}=='updateForm' || {request.controllerActionName}=='addForm' ">
+    <f:then>
+        <v:media.exists file="fileadmin/user_upload/{row.{columnName.name}}">
+            <f:then>
+                <f:image src="fileadmin/user_upload/{row.{columnName.name}}" maxWidth="150" maxHeight="150" />
+            </f:then>
+        </v:media.exists>
+        <f:form.upload name="{columnName.name}" value="fileadmin/user_upload/{row.{columnName.name}}" />
+    </f:then>
+    <f:else>
+        <v:media.exists file="fileadmin/user_upload/{row.{columnName.name}}">
+            <f:then>
+                <f:link.typolink parameter="fileadmin/user_upload/{row.{columnName.name}}">
+                    <f:image src="fileadmin/user_upload/{row.{columnName.name}}" maxWidth="50" maxHeight="50" />
+                </f:link.typolink>
+            </f:then>
+        </v:media.exists>
+    </f:else>
+</f:if>

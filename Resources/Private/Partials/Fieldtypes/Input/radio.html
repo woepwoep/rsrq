@@ -1,0 +1,16 @@
+<f:comment>
+<f:debug>{_all}</f:debug>
+</f:comment>
+
+<f:for each="{columnName.select}" as="optionLabel" key="optionKey">
+  <f:if condition="{optionKey}=={row.{columnName.name}}">
+	<f:then>
+    	<f:form.radio class="{columnName.type}" id="{columnName.name}" name="{columnName.name}" value="{optionKey}" checked="1" /> 
+      	<span class="optionLabel">{optionLabel}</span> <br />
+    </f:then>  
+    <f:else>
+    	<f:form.radio class="{columnName.type}" id="{columnName.name}" name="{columnName.name}" value="{optionKey}" /> 
+      <span class="optionLabel">{optionLabel}</span> <br />
+    </f:else>
+  </f:if>
+</f:for>

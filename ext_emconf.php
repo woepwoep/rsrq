@@ -1,7 +1,7 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext "rsrq".
+# Extension Manager/Repository config file for ext "wfqbe".
 #
 #
 # Manual updates:
@@ -9,25 +9,26 @@
 # writing. "version" and "dependencies" must not be touched!
 ########################################################################
 
-$EM_CONF[$_EXTKEY] = [
-    'title' => 'Red-Seadog Raw Query',
-    'description' => 'This extension is a lightweight version of WFQBE for TYPO3 v9 LTS. Features: raw query, extbase code, fluid templates.',
+$EM_CONF['wfqbe'] = [
+    'title' => 'DB Integration for TYPO3 v10',
+    'description' =>
+        'This extension is based on the DB Integration (wfqbe) extension using TYPO3 v10 standards.',
     'category' => 'plugin',
-    'author' => 'Ronald Wopereis',
-    'author_company' => 'Red-Seadog',
-    'author_email' => 'woepwoep@gmail.com',
-    'state' => 'alpha',
-    'clearcacheonload' => true,
-    'version' => '9.5.5',
+    'version' => '10.4.15',
+    'state' => 'beta',
     'uploadfolder' => false,
     'createDirs' => '',
+    'clearcacheonload' => true,
+    'author' => 'Ronald Wopereis',
+    'author_email' => 'woepwoep@gmail.com',
+    'author_company' => 'Red-Seadog',
     'constraints' => [
         'depends' => [
-            'php' => '7.2.0-7.2.99',
-            'typo3' => '9.5.0-9.5.999',
-            'vhs' => '5.1.1-5.1.999',
+            'php' => '7.2.0-7.4.99',
+            'typo3' => '10.4.0-10.9.99',
+            'vhs' => '6.0.5-6.9.9'
         ],
         'conflicts' => [],
-        'suggests' => [],
-    ],
+        'suggests' => []
+    ]
 ];

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_database</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <query>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:query</label>
+                    <config>
+                        <type>text</type>
+                        <cols>45</cols>
+                        <rows>5</rows>
+                        <eval>trim,required</eval>
+                    </config>
+                </TCEforms>
+            </query>
+            <debug>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:debug</label>
+                    <config>
+                        <type>check</type>
+                    </config>
+                </TCEforms>
+            </debug>
+            <columnNames>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:columnNames</label>
+                    <config>
+                        <type>input</type>
+                        <size>255</size>
+                        <max>255</max>
+                        <eval>trim,required</eval>
+                    </config>
+                </TCEforms>
+            </columnNames>
+            <sortField>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sortField</label>
+                    <config>
+                        <type>input</type>
+                        <size>50</size>
+                        <max>50</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </sortField>
+            <sortOrder>
+                <TCEforms>
+                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sortOrder</label>
+                    <config>
+                        <type>radio</type>
+                        <default>1</default>
+						<items type="array">
+							<numIndex index="0" type="array">
+								<numIndex index="0">ASC</numIndex>
+								<numIndex index="1">ASC</numIndex>
+							</numIndex>
+							<numIndex index="1" type="array">
+								<numIndex index="0">DESC</numIndex>
+								<numIndex index="1">DESC</numIndex>
+							</numIndex>
+						</items>
+                    </config>
+                </TCEforms>
+            </sortOrder>
+            <fieldtypes>
+                <section>1</section>
+                <type>array</type>
+                <title>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:fieldtypes</title>
+                <el>
+                    <typesection>
+                        <type>array</type>
+                        <el>
+                            <nodisplay>
+                                <label>noDisplay</label>
+                                <config>
+                                    <type>check</type>
+                                    <items type="array">
+                                        <numIndex index="0" type="array">
+                                            <numIndex index="0"></numIndex>
+                                            <numIndex index="1">noDisplay</numIndex>
+                                        </numIndex>
+                                    </items>
+                                </config>
+                            </nodisplay>
+                            <name>
+                                <TCEforms>
+                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:name</label>
+                                    <config>
+                                        <type>select</type>
+                                        <renderType>selectSingle</renderType>
+                                        <itemsProcFunc>RedSeadog\Wfqbe\UserFunc\Field->showQueryColumns</itemsProcFunc>
+                                        <minitems>0</minitems>
+                                        <maxitems>1</maxitems>
+                                        <size>1</size>
+                                    </config>
+                                </TCEforms>
+                            </name>
+                            <veldtype>
+                                <TCEforms>
+                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:veldtype</label>
+                                    <config>
+                                        <type>select</type>
+                                        <renderType>selectSingle</renderType>
+                                        <itemsProcFunc>RedSeadog\Wfqbe\UserFunc\Field->populateDisplayFieldTypes</itemsProcFunc>
+                                        <autosizemax>2</autosizemax>
+                                        <size>25</size>
+                                        <maxitems>1</maxitems>
+                                        <minitems>1</minitems>
+                                        <size>1</size>
+                                    </config>
+                                </TCEforms>
+                            </veldtype>
+                            <optionlist>
+                                <TCEforms>
+                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:optionlist</label>
+                                    <config>
+                                        <type>text</type>
+                                        <cols>45</cols>
+                                        <rows>5</rows>
+                                        <eval>trim</eval>
+                                    </config>
+                                    <displayCond>
+                                        <or>
+                                            <value2>FIELD:veldtype:=:radio</value2>
+                                            <value3>FIELD:veldtype:=:selectarray</value3>
+                                        </or>
+                                    </displayCond>
+                                </TCEforms>
+                            </optionlist>
+                        </el>
+                    </typesection>
+                </el>
+            </fieldtypes>
+        </el>
+    </ROOT>
+</T3DataStructure>
