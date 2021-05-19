@@ -2,7 +2,7 @@
 defined('TYPO3_MODE') or die('Access denied.');
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    'RedSeadog.wfqbe',
+    'RedSeadog.rsrq',
     'Piquery',
     [
         'Query' => 'list,detailForm,filter'
@@ -14,7 +14,7 @@ defined('TYPO3_MODE') or die('Access denied.');
 );
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    'RedSeadog.wfqbe',
+    'RedSeadog.rsrq',
     'Picud',
     [
         'Cud' => 'show,addForm,add,updateForm,update,deleteForm,delete'

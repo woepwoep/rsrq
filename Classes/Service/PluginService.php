@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\Service;
+namespace RedSeadog\Rsrq\Service;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\PathUtility;

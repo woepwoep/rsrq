@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\ViewHelpers;
+namespace RedSeadog\Rsrq\ViewHelpers;
 
 /***************************************************************
  *

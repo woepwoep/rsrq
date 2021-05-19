@@ -31,7 +31,7 @@
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
-                                        <itemsProcFunc>RedSeadog\Wfqbe\UserFunc\Field->populateFilterFieldTypes</itemsProcFunc>
+                                        <itemsProcFunc>RedSeadog\Rsrq\UserFunc\Field->populateFilterFieldTypes</itemsProcFunc>
                                         <autosizemax>2</autosizemax>
                                         <size>25</size>
                                         <maxitems>1</maxitems>

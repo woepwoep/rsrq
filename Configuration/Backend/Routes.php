@@ -18,21 +18,21 @@
  */
 
 /**
- * Definitions for routes provided by EXT:wfqbe
+ * Definitions for routes provided by EXT:rsrq
  */
 return [
-    'xMOD_tx_wfqbe_query_insertwiz' => [
-        'path' => '/wfqbe/tx_wfqbe_query_insert/tx_wfqbe_insertform_generator/',
-        'target' => tx_wfqbe_query_insertwiz::class . '::main'
+    'xMOD_tx_rsrq_query_insertwiz' => [
+        'path' => '/rsrq/tx_rsrq_query_insert/tx_rsrq_insertform_generator/',
+        'target' => tx_rsrq_query_insertwiz::class . '::main'
     ],
 
-    'xMOD_tx_wfqbe_query_querywiz' => [
-        'path' => '/wfqbe/tx_wfqbe_query_query/tx_wfqbe_queryform_generator/',
-        'target' => tx_wfqbe_tx_wfqbe_query_querywiz::class . '::main'
+    'xMOD_tx_rsrq_query_querywiz' => [
+        'path' => '/rsrq/tx_rsrq_query_query/tx_rsrq_queryform_generator/',
+        'target' => tx_rsrq_tx_rsrq_query_querywiz::class . '::main'
     ],
 
-    'xMOD_tx_wfqbe_query_searchwiz' => [
-        'path' => '/wfqbe/tx_wfqbe_query_search/tx_wfqbe_searchform_generator/',
-        'target' => tx_wfqbe_tx_wfqbe_query_searchwiz::class . '::main'
+    'xMOD_tx_rsrq_query_searchwiz' => [
+        'path' => '/rsrq/tx_rsrq_query_search/tx_rsrq_searchform_generator/',
+        'target' => tx_rsrq_tx_rsrq_query_searchwiz::class . '::main'
     ]
 ];

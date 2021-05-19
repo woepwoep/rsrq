@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\Service;
+namespace RedSeadog\Rsrq\Service;
 
 use TYPO3\CMS\Core\Service\FlexformService;
 use TYPO3\CMS\Core\Utility\DebugUtility;

@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\ViewHelpers;
+namespace RedSeadog\Rsrq\ViewHelpers;
 
 use TYPO3\CMS\Core\Utility\DebugUtility;
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;

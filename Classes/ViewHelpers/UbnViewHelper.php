@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\ViewHelpers;
+namespace RedSeadog\Rsrq\ViewHelpers;
 
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractConditionViewHelper;

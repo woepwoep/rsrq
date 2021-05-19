@@ -1,7 +1,7 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext "wfqbe".
+# Extension Manager/Repository config file for ext "rsrq".
 #
 #
 # Manual updates:
@@ -9,12 +9,12 @@
 # writing. "version" and "dependencies" must not be touched!
 ########################################################################
 
-$EM_CONF['wfqbe'] = [
+$EM_CONF['rsrq'] = [
     'title' => 'DB Integration for TYPO3 v10',
     'description' =>
-        'This extension is based on the DB Integration (wfqbe) extension using TYPO3 v10 standards.',
+        'This extension is based on the DB Integration (rsrq) extension using TYPO3 v10 standards.',
     'category' => 'plugin',
-    'version' => '10.4.15',
+    'version' => '10.4.16',
     'state' => 'beta',
     'uploadfolder' => false,
     'createDirs' => '',

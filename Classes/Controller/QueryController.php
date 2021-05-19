@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\Controller;
+namespace RedSeadog\Rsrq\Controller;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,9 +16,9 @@ namespace RedSeadog\Wfqbe\Controller;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\DebugUtility;
-use RedSeadog\Wfqbe\Service\FlexformInfoService;
-use RedSeadog\Wfqbe\Service\PluginService;
-use RedSeadog\Wfqbe\Service\SqlService;
+use RedSeadog\Rsrq\Service\FlexformInfoService;
+use RedSeadog\Rsrq\Service\PluginService;
+use RedSeadog\Rsrq\Service\SqlService;
 
 use TYPO3\CMS\Core\Pagination\ArrayPaginator;
 
@@ -36,7 +36,7 @@ class QueryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     protected $ffdata;
 
     /**
-     * @var \RedSeadog\Wfqbe\Service\PluginService
+     * @var \RedSeadog\Rsrq\Service\PluginService
      */
     protected $pluginService;
 
@@ -50,7 +50,7 @@ class QueryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      */
     public function __construct()
     {
-        $this->pluginService = new PluginService('tx_wfqbe');
+        $this->pluginService = new PluginService('tx_rsrq');
         $flexformInfoService = new FlexformInfoService();
 
         // retrieve the query from the flexform ...

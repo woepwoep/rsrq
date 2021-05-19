@@ -20,7 +20,7 @@
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
-                                        <itemsProcFunc>RedSeadog\Wfqbe\UserFunc\Field->showQueryColumns</itemsProcFunc>
+                                        <itemsProcFunc>RedSeadog\Rsrq\UserFunc\Field->showQueryColumns</itemsProcFunc>
                                         <minitems>0</minitems>
                                         <maxitems>1</maxitems>
                                         <size>1</size>
@@ -33,7 +33,7 @@
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
-                                        <itemsProcFunc>RedSeadog\Wfqbe\UserFunc\Field->showQueryColumns</itemsProcFunc>
+                                        <itemsProcFunc>RedSeadog\Rsrq\UserFunc\Field->showQueryColumns</itemsProcFunc>
                                         <minitems>0</minitems>
                                         <maxitems>1</maxitems>
                                         <size>1</size>

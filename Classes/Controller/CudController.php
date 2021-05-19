@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\Controller;
+namespace RedSeadog\Rsrq\Controller;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -19,9 +19,9 @@ use TYPO3\CMS\Core\Utility\DebugUtility;
 use TYPO3\CMS\Core\TypoScript\Parser\TypoScriptParser;
 use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Extbase\Persistence\Generic\Mapper\DataMapper;
-use RedSeadog\Wfqbe\Service\PluginService;
-use RedSeadog\Wfqbe\Service\FlexformInfoService;
-use RedSeadog\Wfqbe\Service\SqlService;
+use RedSeadog\Rsrq\Service\PluginService;
+use RedSeadog\Rsrq\Service\FlexformInfoService;
+use RedSeadog\Rsrq\Service\SqlService;
 
 /**
  * CudController
@@ -38,7 +38,7 @@ class CudController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     protected $configurationManager;
 
     /**
-     * @var \RedSeadog\Wfqbe\Service\PluginService
+     * @var \RedSeadog\Rsrq\Service\PluginService
      */
     protected $pluginSettings;
 
@@ -69,7 +69,7 @@ class CudController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 
     public function __construct()
     {
-        $this->pluginSettings = new PluginService('tx_wfqbe');
+        $this->pluginSettings = new PluginService('tx_rsrq');
 
         // retrieve the tablename and the keyfield(s) from the flexform
         $flexformInfoService = new FlexformInfoService();
@@ -490,13 +490,13 @@ class CudController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
             return;
         }
         $upload_dir = Environment::getPublicPath() . '/fileadmin/user_upload/';
-        foreach ($files['tx_wfqbe_picud']['error'] as $key => $error) {
+        foreach ($files['tx_rsrq_picud']['error'] as $key => $error) {
             if ($error == UPLOAD_ERR_OK) {
-                $tmp_name = $_FILES["tx_wfqbe_picud"]["tmp_name"][$key];
+                $tmp_name = $_FILES["tx_rsrq_picud"]["tmp_name"][$key];
 
                 // basename() may prevent filesystem traversal attacks;
                 // further validation/sanitation of the filename may be appropriate
-                $name = basename($_FILES["tx_wfqbe_picud"]["name"][$key]);
+                $name = basename($_FILES["tx_rsrq_picud"]["name"][$key]);
 
                 $location = $upload_dir . $name;
                 move_uploaded_file($tmp_name, $location);

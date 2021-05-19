@@ -1,5 +1,5 @@
 <?php
-namespace RedSeadog\Wfqbe\UserFunc;
+namespace RedSeadog\Rsrq\UserFunc;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -17,8 +17,8 @@ namespace RedSeadog\Wfqbe\UserFunc;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\DebugUtility;
 use TYPO3\CMS\Core\Core\Environment;
-use RedSeadog\Wfqbe\Service\SqlService;
-use RedSeadog\Wfqbe\Service\FlexformInfoService;
+use RedSeadog\Rsrq\Service\SqlService;
+use RedSeadog\Rsrq\Service\FlexformInfoService;
 
 /**
  * QueryController
@@ -57,7 +57,7 @@ class Field
     {
         $options = [];
 
-        /** $label = Locale::translate("please_select", \RedSeadog\wfqbe\Configuration\ExtensionConfiguration::EXTENSION_KEY); **/
+        /** $label = Locale::translate("please_select", \RedSeadog\rsrq\Configuration\ExtensionConfiguration::EXTENSION_KEY); **/
         $label = "Select targetTable";
         $options[] = [0 => $label, 1 => ""];
 
@@ -194,7 +194,7 @@ class Field
 
         $partialDir =
             Environment::getPublicPath() .
-            '/typo3conf/ext/wfqbe/Resources/Private/Partials/Fieldtypes/'.$subdir;
+            '/typo3conf/ext/rsrq/Resources/Private/Partials/Fieldtypes/'.$subdir;
         $filelist = array_diff(scandir($partialDir), array('..', '.'));
 
         foreach ($filelist as $_file) {

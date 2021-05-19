@@ -1,10 +1,10 @@
 <?php
-namespace RedSeadog\Wfqbe\Service;
+namespace RedSeadog\Rsrq\Service;
 
 use TYPO3\CMS\Core\Utility\DebugUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Database\ConnectionPool;
-use RedSeadog\Wfqbe\Domain\Repository\QueryRepository;
+use RedSeadog\Rsrq\Domain\Repository\QueryRepository;
 
 /**
  *  SqlService
@@ -95,7 +95,7 @@ class SqlService
                     $newValue =
                         date_timestamp_get(date_create()) . '_' . $newValue;
                 }
-                $_FILES['tx_wfqbe_picud']['name'][$columnName] = $newValue;
+                $_FILES['tx_rsrq_picud']['name'][$columnName] = $newValue;
                 break;
             case 'valuta':
                 $newValue = str_replace(',', '.', $value);
