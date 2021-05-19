@@ -1,7 +1,7 @@
-plugin.tx_wfqbe_query.CSS_editor = Plugin: "tx_wfqbe_query"
-plugin.tx_wfqbe_query.CSS_editor.selector = .tx-wfqbe-query
-plugin.tx_wfqbe_query.CSS_editor.exampleWrap = <HR><strong>Plugin: "tx_wfqbe_query"</strong><HR><div class="tx-wfqbe-query"> | </div>
-plugin.tx_wfqbe_query.CSS_editor.ch {
+plugin.tx_rsrq_query.CSS_editor = Plugin: "tx_rsrq_query"
+plugin.tx_rsrq_query.CSS_editor.selector = .tx-rsrq-query
+plugin.tx_rsrq_query.CSS_editor.exampleWrap = <HR><strong>Plugin: "tx_rsrq_query"</strong><HR><div class="tx-rsrq-query"> | </div>
+plugin.tx_rsrq_query.CSS_editor.ch {
 	P = Text
 	P.selector = P
 	P.attribs = BODYTEXT

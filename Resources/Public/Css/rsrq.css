@@ -24,13 +24,13 @@
 }
 
 
-.wfqbe_block {
+.rsrq_block {
   clear: both;
 }
 
 
 /* overige css */
-.wfqbe_description {
+.rsrq_description {
   background: none repeat scroll 0 0 lightblue;
   border-radius: 3px;
   font-style: italic;
@@ -97,7 +97,7 @@
 }
 
 
-.wfqbe_table_header {
+.rsrq_table_header {
   background: lightgreen;
 }
 

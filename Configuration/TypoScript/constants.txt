@@ -1,14 +1,14 @@
-plugin.tx_wfqbe {
+plugin.tx_rsrq {
     persistence {
-        # cat=plugin.tx_wfqbe/file; type=int; label=Storage PID for wfqbe raw queries
+        # cat=plugin.tx_rsrq/file; type=int; label=Storage PID for raw queries
         storagePid = 
     }
     view {
-        # cat=plugin.tx_wfqbe/file; type=string; label=Path to template root (FE)
-        templateRootPath = EXT:wfqbe/Resources/Private/Templates/
-        # cat=plugin.tx_wfqbe/file; type=string; label=Path to template partials (FE)
-        partialRootPath = EXT:wfqbe/Resources/Private/Partials/
-        # cat=plugin.tx_wfqbe/file; type=string; label=Path to template layouts (FE)
-        layoutRootPath = EXT:wfqbe/Resources/Private/Layouts/
+        # cat=plugin.tx_rsrq/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:rsrq/Resources/Private/Templates/
+        # cat=plugin.tx_rsrq/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:rsrq/Resources/Private/Partials/
+        # cat=plugin.tx_rsrq/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:rsrq/Resources/Private/Layouts/
     }
 }

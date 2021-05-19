@@ -20,7 +20,7 @@
 /**
  * Class that adds the wizard icon.
  */
-class tx_wfqbe_query_wizicon
+class tx_rsrq_query_wizicon
 {
     /**
      * Processing the wizard items array
@@ -34,12 +34,12 @@ class tx_wfqbe_query_wizicon
 
         $LL = $this->includeLocalLang();
 
-        $wizardItems['plugins_tx_wfqbe_query'] = array(
-            'icon' => 'EXT:wfqbe/Resources/Public/Icons/ce_wiz.gif',
+        $wizardItems['plugins_tx_rsrq_query'] = array(
+            'icon' => 'EXT:rsrq/Resources/Public/Icons/ce_wiz.gif',
             'title' => $LANG->getLLL('query_title', $LL),
             'description' => $LANG->getLLL('query_plus_wiz_description', $LL),
             'params' =>
-                '&defVals[tt_content][CType]=list&defVals[tt_content][list_type]=wfqbe_query'
+                '&defVals[tt_content][CType]=list&defVals[tt_content][list_type]=rsrq_query'
         );
 
         return $wizardItems;
@@ -54,7 +54,7 @@ class tx_wfqbe_query_wizicon
     {
         global $LANG;
 
-        $LOCAL_LANG = $LANG->includeLLFile('EXT:wfqbe/locallang.xlf', false);
+        $LOCAL_LANG = $LANG->includeLLFile('EXT:rsrq/locallang.xlf', false);
         return $LOCAL_LANG;
     }
 }
