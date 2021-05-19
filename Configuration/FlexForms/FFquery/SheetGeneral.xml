@@ -2,13 +2,13 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_general</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sheet_general</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <div_id>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:div_id</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:div_id</label>
                     <config>
                         <type>input</type>
                         <size>45</size>
@@ -33,7 +33,7 @@
             </gridMode>
 			<numberOfColumns>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:numberOfColumns</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:numberOfColumns</label>
                     <config>
                         <type>input</type>
                         <size>5</size>

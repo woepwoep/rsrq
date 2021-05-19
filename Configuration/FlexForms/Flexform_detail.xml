@@ -4,11 +4,11 @@
         <langDisable>1</langDisable>
     </meta>
     <sheets>
-        <sDEF>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetGeneral.xml</sDEF>
-        <database>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetDatabase.xml</database>
-        <template>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetTemplate.xml</template>
-        <actions>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetActions.xml</actions>
-        <results>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetResults.xml</results>
-        <child>EXT:wfqbe/Configuration/FlexForms/FFquery/SheetChild.xml</child>
+        <sDEF>EXT:rsrq/Configuration/FlexForms/FFquery/SheetGeneral.xml</sDEF>
+        <database>EXT:rsrq/Configuration/FlexForms/FFquery/SheetDatabase.xml</database>
+        <template>EXT:rsrq/Configuration/FlexForms/FFquery/SheetTemplate.xml</template>
+        <actions>EXT:rsrq/Configuration/FlexForms/FFquery/SheetActions.xml</actions>
+        <results>EXT:rsrq/Configuration/FlexForms/FFquery/SheetResults.xml</results>
+        <child>EXT:rsrq/Configuration/FlexForms/FFquery/SheetChild.xml</child>
     </sheets>
 </T3DataStructure>

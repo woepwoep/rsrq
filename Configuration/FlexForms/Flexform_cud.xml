@@ -4,10 +4,10 @@
         <langDisable>1</langDisable>
     </meta>
     <sheets>
-        <sDEF>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetGeneral.xml</sDEF>
-        <database>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetDatabase.xml</database>
-        <template>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetTemplate.xml</template>
-        <validation>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetValidation.xml</validation>
-        <actions>EXT:wfqbe/Configuration/FlexForms/FFcud/SheetActions.xml</actions>
+        <sDEF>EXT:rsrq/Configuration/FlexForms/FFcud/SheetGeneral.xml</sDEF>
+        <database>EXT:rsrq/Configuration/FlexForms/FFcud/SheetDatabase.xml</database>
+        <template>EXT:rsrq/Configuration/FlexForms/FFcud/SheetTemplate.xml</template>
+        <validation>EXT:rsrq/Configuration/FlexForms/FFcud/SheetValidation.xml</validation>
+        <actions>EXT:rsrq/Configuration/FlexForms/FFcud/SheetActions.xml</actions>
     </sheets>
 </T3DataStructure>

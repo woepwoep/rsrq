@@ -2,7 +2,7 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_results</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sheet_results</sheetTitle>
             <sheetDescription></sheetDescription>
             <sheetShortDescr></sheetShortDescr>
         </TCEforms>
@@ -10,7 +10,7 @@
         <el>
             <recordsForPage>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:recordsForPage</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:recordsForPage</label>
                     <config>
                         <type>input</type>
                         <size>5</size>
@@ -25,7 +25,7 @@
             </recordsForPage>
             <slidingPages>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:slidingPages</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:slidingPages</label>
                     <config>
                         <type>input</type>
                         <size>5</size>
@@ -37,7 +37,7 @@
             </slidingPages>
             <emptyResult>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:emptyResult</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:emptyResult</label>
                     <config>
                         <type>text</type>
                         <size>50</size>
@@ -47,7 +47,7 @@
             </emptyResult>
             <csvDownload>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:csvDownload</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:csvDownload</label>
                     <config>
                         <type>check</type>
                     </config>

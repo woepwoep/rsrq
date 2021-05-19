@@ -2,13 +2,13 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_database</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sheet_database</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <query>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:query</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:query</label>
                     <config>
                         <type>text</type>
                         <cols>45</cols>
@@ -19,7 +19,7 @@
             </query>
             <debug>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:debug</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:debug</label>
                     <config>
                         <type>check</type>
                     </config>
@@ -27,7 +27,7 @@
             </debug>
             <columnNames>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:columnNames</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:columnNames</label>
                     <config>
                         <type>input</type>
                         <size>255</size>
@@ -38,7 +38,7 @@
             </columnNames>
             <sortField>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sortField</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sortField</label>
                     <config>
                         <type>input</type>
                         <size>50</size>
@@ -49,7 +49,7 @@
             </sortField>
             <sortOrder>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sortOrder</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sortOrder</label>
                     <config>
                         <type>radio</type>
                         <default>1</default>
@@ -69,7 +69,7 @@
             <fieldtypes>
                 <section>1</section>
                 <type>array</type>
-                <title>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:fieldtypes</title>
+                <title>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:fieldtypes</title>
                 <el>
                     <typesection>
                         <type>array</type>
@@ -88,7 +88,7 @@
                             </nodisplay>
                             <name>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:name</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:name</label>
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
@@ -101,7 +101,7 @@
                             </name>
                             <veldtype>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:veldtype</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:veldtype</label>
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
@@ -116,7 +116,7 @@
                             </veldtype>
                             <optionlist>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:optionlist</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:optionlist</label>
                                     <config>
                                         <type>text</type>
                                         <cols>45</cols>

@@ -2,13 +2,13 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:sheet_actions</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:sheet_actions</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <redirectPage>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:redirectPage</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:redirectPage</label>
                     <config>
                         <type>group</type>
                         <internal_type>db</internal_type>

@@ -4,12 +4,12 @@
 <f:comment>
 <f:debug>{_all}</f:debug>
 <h3>
-  fileadmin/tmpl/wfqbe/MultiColumns.html
+  fileadmin/tmpl/rsrq/MultiColumns.html
 </h3>
 </f:comment>
 
 <div class="container">
-        <div class="wfqbe_description">
+        <div class="rsrq_description">
             <f:if condition="{flexformdata.summary}">
                 <f:then>
                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -33,7 +33,7 @@
           <f:render partial="Grid.html" arguments="{_all}" />
         </f:then>
         <f:else>
-          <div class="wfqbe_block {flexformdata.div_id}">
+          <div class="rsrq_block {flexformdata.div_id}">
             <div class="table-responsive">
                 <table class="table table-bordered table-hover table-condensed">
                     <tbody>
@@ -70,7 +70,7 @@
         </div>
         </f:else>
       </f:if>
-      <div class="wfqbe_block">
+      <div class="rsrq_block">
         <br>
         <button class="btn btn-warning" onclick="goBack()">Terug</button>
       </div>

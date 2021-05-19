@@ -2,7 +2,7 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_chart</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sheet_chart</sheetTitle>
 			<sheetDescription>Display various charts based on the output of the query</sheetDescription>
             <sheetShortDescr></sheetShortDescr>
 			<displayCond>FIELD:sDEF.renderChart:=:1</displayCond>
@@ -19,7 +19,7 @@
 						<el>
 							<name>
 								<TCEforms>
-									<label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:dataSet</label>
+									<label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:dataSet</label>
 									<config>
 										<type>select</type>
 										<renderType>selectSingle</renderType>
@@ -32,25 +32,25 @@
 							</name>
 							<chartType>
 								<TCEforms>
-									<label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartType</label>
+									<label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:chartType</label>
 									<config>
 										<type>select</type>
 										<renderType>selectSingle</renderType>
 										<items>
 											<numIndex index="0">
-												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartLine</numIndex>
+												<numIndex index="0">LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:chartLine</numIndex>
 												<numIndex index="1">line</numIndex>
 											</numIndex>
 											<numIndex index="1">
-												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartBar</numIndex>
+												<numIndex index="0">LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:chartBar</numIndex>
 												<numIndex index="1">bar</numIndex>
 											</numIndex>
 											<numIndex index="2">
-												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartRadar</numIndex>
+												<numIndex index="0">LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:chartRadar</numIndex>
 												<numIndex index="1">radar</numIndex>
 											</numIndex>
 											<numIndex index="3">
-												<numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartPie</numIndex>
+												<numIndex index="0">LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:chartPie</numIndex>
 												<numIndex index="1">pie</numIndex>
 											</numIndex>
 										</items>
@@ -59,7 +59,7 @@
 							</chartType>
 							<chartColor>
 								<TCEforms>
-									<label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:chartColor</label>
+									<label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:chartColor</label>
 									<config>
 										<type>input</type>
 										<renderType>colorpicker</renderType>

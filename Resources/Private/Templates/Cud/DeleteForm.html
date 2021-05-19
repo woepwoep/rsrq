@@ -1,15 +1,16 @@
-{namespace v=FluidTYPO3\Vhs\ViewHelpers} {namespace rs=RedSeadog\Rsrq\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers} 
+{namespace rs=RedSeadog\Rsrq\ViewHelpers}
 
 <f:comment>
-    EXT:wfqbe/Resources/Private/Templates/Cud/DeleteForm.html
+    EXT:rsrq/Resources/Private/Templates/Cud/DeleteForm.html
     <f:debug>{_all}</f:debug>
 </f:comment>
 
 <div class="container">
     <div id="{flexformdata.div_id}">
         <f:form id="{flexformdata.div_id}_form" name="{flexformdata.div_id}_form" enctype="multipart/form-data" method="post" action="delete" arguments="{linkValue: '{linkValue}'}">
-            <div class="wfqbe_description">{flexformdata.caption} verwijderen</div>
-            <div class="wfqbe_block">
+            <div class="rsrq_description">{flexformdata.caption} verwijderen</div>
+            <div class="rsrq_block">
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover table-condensed">
                         <tbody>
@@ -34,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="wfqbe_block">
+            <div class="rsrq_block">
                 <f:link.page class="btn btn-warning" pageUid="		{flexformdata.redirectPage}">Terug</f:link.page>
                 <f:form.submit class="btn btn-primary" value="Verwijderen" />
             </div>

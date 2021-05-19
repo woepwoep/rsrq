@@ -2,21 +2,21 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_child</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sheet_child</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <linkfields>
                 <section>1</section>
                 <type>array</type>
-                <title>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:linkfields</title>
+                <title>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:linkfields</title>
                 <el>
                     <linksection>
                         <type>array</type>
                         <el>
                             <linkField>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:linkField</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:linkField</label>
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
@@ -29,7 +29,7 @@
                             </linkField>
                             <relationField>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:relationField</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:relationField</label>
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
@@ -42,7 +42,7 @@
                             </relationField>
                             <childPage>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:childPage</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:childPage</label>
                                     <config>
                                         <type>group</type>
                                         <internal_type>db</internal_type>

@@ -2,13 +2,13 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:sheet_actions</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:sheet_actions</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <keyField>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:keyField</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:keyField</label>
                     <config>
                         <type>select</type>
                         <renderType>selectSingle</renderType>
@@ -21,7 +21,7 @@
             </keyField>
             <parentField>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:parentField</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:parentField</label>
                     <config>
                         <type>select</type>
                         <renderType>selectSingle</renderType>
@@ -34,7 +34,7 @@
             </parentField>
             <cudPage>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:cudPage</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:cudPage</label>
                     <config>
                         <type>group</type>
                         <internal_type>db</internal_type>
@@ -47,7 +47,7 @@
             </cudPage>
             <detailPage>
                 <TCEforms>
-                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_query.xlf:detailPage</label>
+                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_query.xlf:detailPage</label>
                     <config>
                         <type>group</type>
                         <internal_type>db</internal_type>

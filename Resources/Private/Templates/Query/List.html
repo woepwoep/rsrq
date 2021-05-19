@@ -3,13 +3,13 @@
 
 
 <f:comment>
-  <h3> EXT:wfqbe/Resources/Private/Templates/Query/List.html </h3>
+  <h3> EXT:rsrq/Resources/Private/Templates/Query/List.html </h3>
     <f:debug>{_all}</f:debug>
 </f:comment>
 
-<f:variable name="edit" value="EXT:wfqbe/Resources/Public/Icons/edit.gif" />
-<f:variable name="delete" value="EXT:wfqbe/Resources/Public/Icons/delete.gif" />
-<f:variable name="details" value="EXT:wfqbe/Resources/Public/Icons/details.gif" />
+<f:variable name="edit" value="EXT:rsrq/Resources/Public/Icons/edit.gif" />
+<f:variable name="delete" value="EXT:rsrq/Resources/Public/Icons/delete.gif" />
+<f:variable name="details" value="EXT:rsrq/Resources/Public/Icons/details.gif" />
 
 <f:variable name="rsrq_newnames" value="<rs:prependString array='{rsrq_names}' string='RSRQ_' />" />
 
@@ -44,7 +44,7 @@
 <f:section name="resultTable" >
 <div class="container"> 
   <div class="{flexformdata.div_id}">
-    <div class="wfqbe_description">
+    <div class="rsrq_description">
 
       <f:if condition="{flexformdata.summary}">
       <f:then>
@@ -89,7 +89,7 @@
           </div>
         </div>
 		
-        <thead class="wfqbe_table_header">
+        <thead class="rsrq_table_header">
         <tr>
           <f:if condition="{flexformdata.detailPage}">
             <th></th>

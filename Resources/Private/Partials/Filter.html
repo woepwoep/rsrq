@@ -4,12 +4,12 @@
 <div class="container">
     <div id="{flexformdata.div_id}">
         <f:form id="CUD_form" name="CUD_form" enctype="multipart/form-data" method="post" action="list">
-            <div class="wfqbe_description">Filter</div>
+            <div class="rsrq_description">Filter</div>
 
-            <div class="wfqbe_block">
+            <div class="rsrq_block">
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover table-condensed">
-                        <thead class="wfqbe_table_header">
+                        <thead class="rsrq_table_header">
                             <tr>
                                 <f:for each="{filterFieldList}" as="filterField">
                                     <th>
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="wfqbe_block">
+            <div class="rsrq_block">
                 <f:link.page class="btn btn-warning" pageUid="{flexformdata.redirectPage}">Leegmaken</f:link.page>
                 <f:form.submit class="btn btn-primary" value="Filteren" />
             </div>

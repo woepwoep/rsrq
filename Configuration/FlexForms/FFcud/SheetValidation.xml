@@ -2,20 +2,20 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:sheet_validation</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:sheet_validation</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <field>
                 <section>1</section>
                 <type>array</type>
-                <title>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:validator</title>
+                <title>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:validator</title>
                 <el>
                     <validation>
                         <type>array</type>
                         <el>
                             <name>
-                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:field_name</label>
+                                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:field_name</label>
                                 <config>
                                     <type>input</type>
                                     <size>45</size>
@@ -24,14 +24,14 @@
                                 </config>
                             </name>
                             <validator>
-                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:validator</label>
+                                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:validator</label>
                                 <config>
                                     <type>select</type>
                                     <renderType>selectSingle</renderType>
                                     <autosizemax>2</autosizemax>
                                     <items type="array">
                                         <numIndex index="0" type="array">
-                                            <numIndex index="0">LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:please_select</numIndex>
+                                            <numIndex index="0">LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:please_select</numIndex>
                                             <numIndex index="1"></numIndex>
                                         </numIndex>
                                         <numIndex index="1" type="array">

@@ -2,12 +2,12 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:sheet_database</sheetTitle>
+            <sheetTitle>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:sheet_database</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
             <targetTable>
-                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:targetTable</label>
+                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:targetTable</label>
                 <onChange>reload</onChange>
                 <config>
                     <type>select</type>
@@ -19,7 +19,7 @@
                 </config>
             </targetTable>
             <identifiers>
-                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:identifiers</label>
+                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:identifiers</label>
                 <config>
                     <type>input</type>
                     <size>45</size>
@@ -28,7 +28,7 @@
                 </config>
             </identifiers>
             <fieldlist>
-                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:fieldlist</label>
+                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:fieldlist</label>
                 <onChange>reload</onChange>
                 <config>
                     <type>select</type>
@@ -43,7 +43,7 @@
             <fieldtypes>
                 <section>1</section>
                 <type>array</type>
-                <title>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:fieldtypes</title>
+                <title>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:fieldtypes</title>
                 <el>
                     <typesection>
                         <type>array</type>
@@ -61,7 +61,7 @@
                                 </config>
                             </nodisplay>
                             <veldtype>
-                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:veldtype</label>
+                                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:veldtype</label>
                                 <onChange>reload</onChange>
                                 <config>
                                     <type>select</type>
@@ -75,7 +75,7 @@
                                 </config>
                             </veldtype>
                             <argument>
-                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:argument</label>
+                                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:argument</label>
                                 <config>
                                     <type>text</type>
                                     <cols>45</cols>
@@ -85,7 +85,7 @@
                                 <displayCond>FIELD:veldtype:=:select</displayCond>
                             </argument>
                             <optionlist>
-                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:optionlist</label>
+                                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:optionlist</label>
                                 <config>
                                     <type>text</type>
                                     <cols>45</cols>
@@ -101,7 +101,7 @@
                             </optionlist>
                             <name>
                                 <TCEforms>
-                                    <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:name</label>
+                                    <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:name</label>
                                     <config>
                                         <type>select</type>
                                         <renderType>selectSingle</renderType>
@@ -113,7 +113,7 @@
                                 </TCEforms>
                             </name>
                             <additionalargument>
-                                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:additionalargument</label>
+                                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:additionalargument</label>
                                 <config>
                                     <type>input</type>
                                     <cols>15</cols>
@@ -126,7 +126,7 @@
                 </el>
             </fieldtypes>
             <defaultvalues>
-                <label>LLL:EXT:wfqbe/Resources/Private/Language/Flexform_cud.xlf:fixedvalues</label>
+                <label>LLL:EXT:rsrq/Resources/Private/Language/Flexform_cud.xlf:fixedvalues</label>
                 <config>
                     <type>text</type>
                     <cols>45</cols>
