@@ -48,6 +48,21 @@
 					<onChange>reload</onChange>
                 </TCEforms>
             </numberOfColumns>
+			<searchField>
+                <TCEforms>
+                    <label>Disable searchField in table (Y/N)</label>
+                    <config>
+                        <type>check</type>
+                        <items type="array">
+                            <numIndex index="0" type="array">
+                                <numIndex index="0"></numIndex>
+                                <numIndex index="1">searchField</numIndex>
+                            </numIndex>
+                        </items>
+						<default>1</default>
+                    </config>
+                </TCEforms>
+            </searchField>
             <isChildPage>
                 <TCEforms>
                     <label>isChildPage (Y/N)</label>
