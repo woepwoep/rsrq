@@ -1,8 +1,8 @@
 {
-    "name": "RedSeadog/Rsrq",
+    "name": "red-seadog/rsrq",
     "type": "typo3-cms-extension",
     "description": "This extension is based on the DB Integration (rsrq) extension using TYPO3 v10 standards.",
-    "license": "GPL-2.0-or-later",
+    "license": "OPL-1.0",
     "require": {
         "typo3/cms-core": "^10.4.16"
     },
