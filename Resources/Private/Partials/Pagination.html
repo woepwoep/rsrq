@@ -12,10 +12,10 @@
 <f:variable name="rsrq_newnames" value="<rs:prependString array='{rsrq_names}' string='RSRQ_' />" />
 
 <f:variable name="args" value="<rs:arrayMerge array1='{rsrq_newnames}' array2='{pageNo: \'1\'}'/>" />
-<f:link.action arguments="{args}"><span class="badge badge-pill badge-primary">First</span> </f:link.action>
+<f:link.action arguments="{args}"><span class="badge badge-pill badge-primary rounded-pill bg-primary">First</span> </f:link.action>
 
 <f:variable name="argsPrev" value="<rs:arrayMerge array1='{rsrq_newnames}' array2='{pageNo: \'{pageInfo.prevPage}\'}'/>" />
-<f:link.action arguments="{argsPrev}"><span class="badge badge-pill badge-primary">Prev</span> </f:link.action>
+<f:link.action arguments="{argsPrev}"><span class="badge badge-pill badge-primary rounded-pill bg-primary">Prev</span> </f:link.action>
 
 <v:iterator.loop count="{pageInfo.numberOfPages}" iteration="iteration">
     <f:variable name="args" value="<rs:arrayMerge array1='{rsrq_newnames}' array2='{pageNo: \'{iteration.cycle}\'}'/>" />
@@ -31,14 +31,14 @@
   
 	<f:if condition="{pageInfo.slidingPages}==0 || {iteration.isFirst} || {iteration.isLast}">
     <f:then>
-        <f:link.action arguments="{args}"><span class="{Bingo} badge badge-pill badge-info">{iteration.cycle}</span></f:link.action>
+        <f:link.action arguments="{args}"><span class="{Bingo} badge badge-pill badge-info rounded-pill bg-info">{iteration.cycle}</span></f:link.action>
 	</f:then>
     <f:else>
         <f:if condition="{iteration.cycle}=={pageInfo.fromMinusOne} || {iteration.cycle}=={pageInfo.toPlusOne}">
         <f:then>...</f:then>
         <f:else>
             <f:if condition="{iteration.cycle} > {pageInfo.fromMinusOne} && {iteration.cycle} < {pageInfo.toPlusOne}" >
-                <f:link.action arguments="{args}"><span class="{Bingo} badge badge-pill badge-info">{iteration.cycle}</span></f:link.action> 
+                <f:link.action arguments="{args}"><span class="{Bingo} badge badge-pill badge-info rounded-pill bg-info">{iteration.cycle}</span></f:link.action> 
             </f:if>
         </f:else>
         </f:if>
@@ -48,8 +48,8 @@
 </v:iterator.loop>
 
 <f:variable name="argsNext" value="<rs:arrayMerge array1='{rsrq_newnames}' array2='{pageNo: \'{pageInfo.nextPage}\'}'/>" />
-<f:link.action arguments="{argsNext}"><span class="badge badge-pill badge-primary">Next</span> </f:link.action>
-<f:link.action arguments="{args}"><span class="badge badge-pill badge-primary"> Last</span></f:link.action>
+<f:link.action arguments="{argsNext}"><span class="badge badge-pill badge-primary rounded-pill bg-primary">Next</span> </f:link.action>
+<f:link.action arguments="{args}"><span class="badge badge-pill badge-primary rounded-pill bg-primary"> Last</span></f:link.action>
 
 <br />
 <br />

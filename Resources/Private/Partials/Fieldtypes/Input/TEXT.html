@@ -1,7 +1,7 @@
 <f:form.textfield
     onclick="{columnName.additionalargument}"
     id="{columnName.name}"
-    class="form-control {columnName.type}"
+    class="form-control form-{columnName.type} {columnName.type}"
     name="{columnName.name}"
     value="{row.{columnName.name}}"
     required="{f:if(condition: '{columnName.validation}==required', then: '1', else: '0')}"

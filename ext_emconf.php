@@ -14,7 +14,7 @@ $EM_CONF['rsrq'] = [
     'description' =>
         'This extension is based on the DB Integration (rsrq) extension using TYPO3 v10 standards.',
     'category' => 'plugin',
-    'version' => '10.4.16',
+    'version' => '10.4.21',
     'state' => 'beta',
     'uploadfolder' => false,
     'createDirs' => '',
