@@ -50,7 +50,7 @@
             </numberOfColumns>
 			<searchField>
                 <TCEforms>
-                    <label>Disable searchField in table (Y/N)</label>
+                    <label>Enable searchField in table (Y/N)</label>
                     <config>
                         <type>check</type>
                         <items type="array">
