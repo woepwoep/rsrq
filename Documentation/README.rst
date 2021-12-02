@@ -15,4 +15,7 @@ About this Repository
 
 This is the manual for extension rsrq.
 
+.. include:: Index.rst
+
+
 
