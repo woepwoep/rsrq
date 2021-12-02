@@ -11,7 +11,7 @@ rsrq DB Integration Extension for TYPO3
       2021-06-01
 
 :Changed:
-      2021-07-19
+      2021-12-02
 
 :Changed by:
       Erwin Winkel / Ronald Wopereis - Red-Seadog
