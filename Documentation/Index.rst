@@ -1,8 +1,8 @@
 ﻿.. include:: Includes.txt
 
-==============================
+=======================================
 rsrq DB Integration Extension for TYPO3
-==============================
+=======================================
 
 :Author:
       Red-Seadog
@@ -28,8 +28,8 @@ rsrq DB Integration Extension for TYPO3
 :License:
       This document is published under the Open Content License available from http://www.opencontent.org/opl.shtml
 
-Table of Contents
-^^^^^^^^^^^^^^^^^
+**Table of Contents**
+
 .. toctree::
    :maxdepth: 5
    :titlesonly:
@@ -38,5 +38,6 @@ Table of Contents
    Introduction/Index
    UsersManual/Index
    Configuration/Index
+   Faq/Index
    KnownProblems/Index
    Changelog/Index
