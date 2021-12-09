@@ -8,7 +8,7 @@
 
 .. _faq:
 
-FAQ
+Faq
 ===
 
 vraag 1

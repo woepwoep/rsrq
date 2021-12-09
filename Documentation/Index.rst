@@ -39,6 +39,8 @@ Table of Contents
    UsersManual/Index
    Configuration/Index
    KnownProblems/Index
+   Support/Index
+   Faq/Index
    Changelog/Index
 
 
