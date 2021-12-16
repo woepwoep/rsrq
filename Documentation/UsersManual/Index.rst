@@ -36,3 +36,4 @@ Finally, the “Characters management” page provides the form to insert, edit 
    :glob:
 
    CharactersList/Index
+   Filters/Index
