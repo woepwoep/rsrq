@@ -32,7 +32,7 @@
                         <type>input</type>
                         <size>255</size>
                         <max>255</max>
-                        <eval>trim,required</eval>
+                        <eval>trim</eval>
                     </config>
                 </TCEforms>
             </columnNames>

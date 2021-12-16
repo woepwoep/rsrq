@@ -31,6 +31,7 @@ rsrq DB Integration Extension for TYPO3
 Table of Contents
 ^^^^^^^^^^^^^^^^^
 .. toctree::
+   :hidden:
    :maxdepth: 5
    :titlesonly:
    :glob:
@@ -39,11 +40,10 @@ Table of Contents
    UsersManual/Index
    Configuration/Index
    KnownProblems/Index
-   Support/Index
    Faq/Index
    Changelog/Index
 
 
 .. warning::
 
-   The information on this document is under construction!
+   The information in this document is under construction!
