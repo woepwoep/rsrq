@@ -1,23 +1,23 @@
-﻿.. include:: Includes.txt
+﻿.. include:: ../Includes.rst.txt
 
-==============================
+=======================================
 rsrq DB Integration Extension for TYPO3
-==============================
+=======================================
 
 :Author:
-      Red-Seadog
+      Ronald Wopereis / Erwin Winkel
 
 :Created:
-      2021-06-01
+      2021-12-09
 
 :Changed:
-      2021-07-19
+       2021-12-09
 
 :Changed by:
-      Erwin Winkel / Ronald Wopereis - Red-Seadog
+      Erwin Winkel
 
 :Keywords:
-      rsrq, wfqbe, SQL, MySQL, Admin
+      rsrq, database, SQL, Admin
 
 :Email:
       info@red-seadog.com
@@ -31,6 +31,7 @@ rsrq DB Integration Extension for TYPO3
 Table of Contents
 ^^^^^^^^^^^^^^^^^
 .. toctree::
+   :hidden:
    :maxdepth: 5
    :titlesonly:
    :glob:
@@ -39,4 +40,10 @@ Table of Contents
    UsersManual/Index
    Configuration/Index
    KnownProblems/Index
+   Faq/Index
    Changelog/Index
+
+
+.. warning::
+
+   The information in this document is under construction!
