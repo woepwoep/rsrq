@@ -9,7 +9,7 @@
 
 <f:variable name="edit" value="EXT:rsrq/Resources/Public/Icons/edit.gif" />
 <f:variable name="delete" value="EXT:rsrq/Resources/Public/Icons/delete.gif" />
-<f:variable name="details" value="EXT:rsrq/Resources/Public/Icons/details.gif" />
+<f:variable name="details" value="EXT:rsrq/Resources/Public/Icons/details-info.png" />
 
 <f:variable name="rsrq_newnames" value="<rs:prependString array='{rsrq_names}' string='RSRQ_' />" />
 
@@ -51,8 +51,10 @@
         <button
           class="btn btn-primary"
           type="button"
-          data-toggle="collapse"
-          data-target="#summary{cObject.uid}"
+          data-bs-toggle="collapse"
+		  data-toggle="collapes"
+          data-bs-target="#summary{cObject.uid}"
+		  data-target="#summary{cObject.uid}"
           aria-expanded="false"
           aria-controls="summary{cObject.uid}" >
             {flexformdata.caption}</button>
@@ -70,6 +72,13 @@
     </div>
 	
     <div class="table-responsive">
+	
+		<div class="summary">
+          <div class="collapse" id="summary{cObject.uid}">
+            <div class="card card-body bg-light">{flexformdata.summary}</div>
+          </div>
+        </div>
+          
       	<f:if condition="{flexformdata.searchField}=='1' ">
               <input type="text" id="searchInput" size="50" placeholder="Search in table.." onchange="sum('Bedrag')" /> 
 			  <br>
@@ -77,18 +86,12 @@
 			  <br>
        </f:if>
         
-          
-      <table class="table table-bordered table-hover table-condensed" >
-        <f:if condition="{pageInfo.numberOfPages} > '1' ">
+		<f:if condition="{pageInfo.numberOfPages} > '1' ">
           <f:render partial="Pagination" arguments="{_all}"></f:render>
         </f:if>
 
-        <div class="summary">
-          <div class="collapse" id="summary{cObject.uid}">
-            <div class="card card-body bg-light">{flexformdata.summary}</div>
-          </div>
-        </div>
-		
+        
+      <table class="table table-bordered table-hover table-condensed" >
         <thead class="rsrq_table_header">
         <tr>
           <f:if condition="{flexformdata.detailPage}">
@@ -179,7 +182,6 @@
             <f:render partial="ChildPage" arguments="{_all}" />       
           </f:then>
        </f:if>
-      </div>
     </div>
   </div>
 </div>
