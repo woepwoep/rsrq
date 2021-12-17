@@ -11,10 +11,8 @@ rsrq DB Integration Extension for TYPO3
       2021-12-09
 
 :Changed:
-       2021-12-09
 
 :Changed by:
-      Erwin Winkel
 
 :Keywords:
       rsrq, database, SQL, Admin
